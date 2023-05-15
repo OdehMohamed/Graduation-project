@@ -1,0 +1,58 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Introduction }{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Literature Review}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Project Scope}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Problem Statement}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Project Objectives}{6}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Project Benefits}{7}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Project Methodology}{8}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Proposed Working Plan}{9}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Project Constraints }{9}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Summary}{10}{subsection.1.10}%
+\contentsline {section}{\numberline {2}SYSTEM ANALYSIS }{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Introduction}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Project Implementation Options}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The Proposed System}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}System Requirements}{16}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Functional requirements}{16}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Non-functional requirements}{17}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Feasibility Study}{17}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Economic Feasibility}{17}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Technical Feasibility Study}{19}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Human Resources Feasibility Study }{19}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Scheduling Feasibility Study}{20}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.6}Project Added Values}{21}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Project Management}{22}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Roles and responsibilities}{22}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Communication Plan}{24}{subsubsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.3}A conflict resolution plan}{25}{subsubsection.2.7.3}%
+\contentsline {subsubsection}{\numberline {2.7.4}Risk management plan}{26}{subsubsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.8}Summary}{27}{subsection.2.8}%
+\contentsline {section}{\numberline {3}SYSTEM FUNCTIONAL REQUIREMENTS ANALYSIS}{28}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduction}{28}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Context and Use-Case Diagrams}{28}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Functional Requirement Description}{30}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Summary}{31}{subsection.3.4}%
+\contentsline {section}{\numberline {4}SYSTEM DESIGN}{32}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Introduction}{32}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Algorithms}{32}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}PseudoCode}{33}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Class Diagram}{34}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Sequence Diagrams}{34}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Entity Relationship Diagram (ERD)}{34}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Functions Design and Activity Diagrams}{34}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Input/ Output Design}{35}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Summary}{36}{subsection.4.7}%
+\contentsline {section}{\numberline {5}SYSTEM DEVELOPMENT}{36}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{36}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}User Interfaces}{36}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Summary}{36}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Introduction}{37}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}System Testing}{37}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}System Integration}{37}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}System Testing Result}{37}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Summary}{37}{subsection.5.8}%
+\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE WORKS}{37}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Conclusion}{37}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Future Works}{37}{subsection.6.2}%
