@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../Forms/LoginForm.dart';
 
 class LaunchScreen extends StatefulWidget {
   const LaunchScreen({Key? key}) : super(key: key);
@@ -12,7 +13,10 @@ class _LaunchScreenState extends State<LaunchScreen> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 3), () {
-      Navigator.pushReplacementNamed(context, '/LoginForm');
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => LoginScreen()),
+      );
     });
   }
 
@@ -30,17 +34,18 @@ class _LaunchScreenState extends State<LaunchScreen> {
             ),
           ),
           Center(
-              child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                "Patient Tracker",
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height: 20),
-              CircularProgressIndicator(),
-            ],
-          ))
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Patient Tracker",
+                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 20),
+                CircularProgressIndicator(),
+              ],
+            ),
+          ),
         ],
       ),
     );
