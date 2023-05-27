@@ -5,8 +5,8 @@ import 'package:patienttracker/Widget/SignOutDialog.dart';
 
 import '../../Widget/ElevatedButtonHome.dart';
 
-class CenterHome extends StatelessWidget {
-  const CenterHome({Key? key}) : super(key: key);
+class PatientHome extends StatelessWidget {
+  const PatientHome({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +17,8 @@ class CenterHome extends StatelessWidget {
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
       ),
-      drawer:
-          const MainDrawer("Groups", "Doctors", "Family Members", "Patients"),
+      drawer: const MainDrawer(
+          "My Group", "My Doctor", "My Family Member", "HealthCare Center"),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           SingOutDialog(context);
@@ -135,6 +135,31 @@ class CenterHome extends StatelessWidget {
                     Expanded(
                       child: Text(
                         'Add/Delete Member from Group',
+                        style: TextStyle(fontSize: 24),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            ListTile(
+              title: ElevatedButton(
+                onPressed: () {
+                  // Add your action for the "Create Group" button here
+                },
+                style: ElevatedButtonHome(),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(left: 10, right: 40),
+                      child: Image.asset(
+                        'assets/images/createGroup.png',
+                        height: 60,
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(
+                        'Insulin Level',
                         style: TextStyle(fontSize: 24),
                       ),
                     ),

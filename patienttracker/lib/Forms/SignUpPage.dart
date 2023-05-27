@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:patienttracker/Pages/CenterPages/HomePage.dart';
+
+import '../Widget/textFormFieldDecoration.dart';
 
 class SignUpPage extends StatefulWidget {
   @override
@@ -56,58 +59,80 @@ class _SignUpPageState extends State<SignUpPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              TextFormField(
-                decoration: InputDecoration(labelText: 'First Name'),
-                validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter your first name';
-                  }
-                  return null;
-                },
-                onChanged: (value) {
-                  setState(() {
-                    _firstName = value;
-                  });
-                },
+              Row(
+                children: [
+                  Expanded(
+                    child: TextFormField(
+                      decoration: textFormFieldDecoration("First Name"),
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return 'Please enter your first name';
+                        }
+                        return null;
+                      },
+                      onChanged: (value) {
+                        setState(() {
+                          _firstName = value;
+                        });
+                      },
+                    ),
+                  ),
+                  Expanded(
+                    child: TextFormField(
+                      decoration: textFormFieldDecoration("Second Name"),
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return 'Please enter your second name';
+                        }
+                        return null;
+                      },
+                      onChanged: (value) {
+                        setState(() {
+                          _secondName = value;
+                        });
+                      },
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Row(
+                children: [
+                  Expanded(
+                    child: TextFormField(
+                      decoration: textFormFieldDecoration("Third Name"),
+                      onChanged: (value) {
+                        setState(() {
+                          _thirdName = value;
+                        });
+                      },
+                    ),
+                  ),
+                  Expanded(
+                    child: TextFormField(
+                      decoration: textFormFieldDecoration("Last Name"),
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return 'Please enter your last name';
+                        }
+                        return null;
+                      },
+                      onChanged: (value) {
+                        setState(() {
+                          _lastName = value;
+                        });
+                      },
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 15,
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Second Name'),
-                validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter your second name';
-                  }
-                  return null;
-                },
-                onChanged: (value) {
-                  setState(() {
-                    _secondName = value;
-                  });
-                },
-              ),
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Third Name'),
-                onChanged: (value) {
-                  setState(() {
-                    _thirdName = value;
-                  });
-                },
-              ),
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Last Name'),
-                validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter your last name';
-                  }
-                  return null;
-                },
-                onChanged: (value) {
-                  setState(() {
-                    _lastName = value;
-                  });
-                },
-              ),
-              TextFormField(
-                decoration: InputDecoration(labelText: 'Personal ID'),
+                decoration: textFormFieldDecoration("Personal ID"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your personal ID';
@@ -120,8 +145,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   });
                 },
               ),
+              SizedBox(
+                height: 15,
+              ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Phone'),
+                decoration: textFormFieldDecoration("Phone"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your phone number';
@@ -134,8 +162,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   });
                 },
               ),
+              SizedBox(
+                height: 15,
+              ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Email'),
+                decoration: textFormFieldDecoration("Email"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your email';
@@ -149,8 +180,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   });
                 },
               ),
+              SizedBox(
+                height: 15,
+              ),
               DropdownButtonFormField<String>(
-                hint: Text("Type Of User"),
+                decoration: textFormFieldDecoration("Type Of User"),
                 value: _userType,
                 items: [
                   DropdownMenuItem(
@@ -172,8 +206,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   });
                 },
               ),
+              SizedBox(
+                height: 15,
+              ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'User Name'),
+                decoration: textFormFieldDecoration("User Name"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter a user name';
@@ -186,8 +223,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   });
                 },
               ),
+              SizedBox(
+                height: 15,
+              ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Password'),
+                decoration: textFormFieldDecoration("Password"),
                 obscureText: true,
                 validator: (value) {
                   if (value!.isEmpty) {
@@ -201,8 +241,11 @@ class _SignUpPageState extends State<SignUpPage> {
                   });
                 },
               ),
+              SizedBox(
+                height: 15,
+              ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Confirm Password'),
+                decoration: textFormFieldDecoration("Confirm Password"),
                 obscureText: true,
                 validator: (value) {
                   if (value!.isEmpty) {
@@ -243,7 +286,13 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 }
 
-class PatientSignUpPage extends StatelessWidget {
+class PatientSignUpPage extends StatefulWidget {
+  @override
+  State<PatientSignUpPage> createState() => _PatientSignUpPageState();
+}
+
+class _PatientSignUpPageState extends State<PatientSignUpPage> {
+  String? _gender;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -256,7 +305,79 @@ class PatientSignUpPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             TextFormField(
-              decoration: InputDecoration(labelText: 'Age'),
+              decoration: textFormFieldDecoration('Disease Name'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your disease name';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Degree of Severity'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter the degree of severity';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Current Health State'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your current health state';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Oxygen'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your oxygen level';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Blood Pressure'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your blood pressure';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Blood Glucose Level'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your blood glucose level';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Age'),
               keyboardType: TextInputType.number,
               validator: (value) {
                 if (value!.isEmpty) {
@@ -265,67 +386,35 @@ class PatientSignUpPage extends StatelessWidget {
                 return null;
               },
             ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Gender'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your gender';
-                }
-                return null;
+            SizedBox(
+              height: 15,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 12.0),
+              child: Text(
+                "Gender :",
+                style: TextStyle(
+                    fontSize: 18, decoration: TextDecoration.underline),
+              ),
+            ),
+            RadioListTile(
+              title: Text('Male'),
+              value: 'Male',
+              groupValue: _gender,
+              onChanged: (value) {
+                setState(() {
+                  _gender = value;
+                });
               },
             ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Disease Name'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your disease name';
-                }
-                return null;
-              },
-            ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Degree of Severity'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter the degree of severity';
-                }
-                return null;
-              },
-            ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Current Health State'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your current health state';
-                }
-                return null;
-              },
-            ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Oxygen'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your oxygen level';
-                }
-                return null;
-              },
-            ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Blood Pressure'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your blood pressure';
-                }
-                return null;
-              },
-            ),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Blood Glucose Level'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your blood glucose level';
-                }
-                return null;
+            RadioListTile(
+              title: Text('Female'),
+              value: 'Female',
+              groupValue: _gender,
+              onChanged: (value) {
+                setState(() {
+                  _gender = value;
+                });
               },
             ),
             SizedBox(height: 20),
@@ -345,10 +434,85 @@ class PatientSignUpPage extends StatelessWidget {
 
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => NextPage()),
+                      MaterialPageRoute(
+                          builder: (context) => PatientSignUpPage2()),
                     );
                   },
                   child: Text('Next'),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class PatientSignUpPage2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Patient Sign Up'),
+      ),
+      body: SingleChildScrollView(
+        padding: EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            TextFormField(
+              decoration: textFormFieldDecoration('FamilyMember(UserName)'),
+              keyboardType: TextInputType.number,
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your FamilyMember(UserName)';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('Doctor(UserName)'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your Doctor(UserName)';
+                }
+                return null;
+              },
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            TextFormField(
+              decoration: textFormFieldDecoration('HealthcareCenter (ID)'),
+              validator: (value) {
+                if (value!.isEmpty) {
+                  return 'Please enter your HealthcareCenter (ID)';
+                }
+                return null;
+              },
+            ),
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  child: Text('Back'),
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CenterHome()),
+                    );
+                  },
+                  child: Text('Finish'),
                 ),
               ],
             ),
@@ -372,7 +536,7 @@ class FamilyMemberSignUpPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             TextFormField(
-              decoration: InputDecoration(labelText: 'Relationship to Patient'),
+              decoration: textFormFieldDecoration('Relationship to Patient'),
               validator: (value) {
                 if (value!.isEmpty) {
                   return 'Please enter your relationship to the patient';
@@ -380,8 +544,11 @@ class FamilyMemberSignUpPage extends StatelessWidget {
                 return null;
               },
             ),
+            SizedBox(
+              height: 15,
+            ),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Health Care Center (ID)'),
+              decoration: textFormFieldDecoration('Health Care Center (ID)'),
               validator: (value) {
                 if (value!.isEmpty) {
                   return 'Please enter the health care center ID';
@@ -389,8 +556,11 @@ class FamilyMemberSignUpPage extends StatelessWidget {
                 return null;
               },
             ),
+            SizedBox(
+              height: 15,
+            ),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Doctor (User Name)'),
+              decoration: textFormFieldDecoration('Doctor (User Name)'),
               validator: (value) {
                 if (value!.isEmpty) {
                   return 'Please enter the doctor user name';
@@ -415,7 +585,7 @@ class FamilyMemberSignUpPage extends StatelessWidget {
 
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => NextPage()),
+                      MaterialPageRoute(builder: (context) => CenterHome()),
                     );
                   },
                   child: Text('Finish'),
@@ -442,7 +612,7 @@ class DoctorSignUpPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             TextFormField(
-              decoration: InputDecoration(labelText: 'Medical Specialty'),
+              decoration: textFormFieldDecoration('Medical Specialty'),
               validator: (value) {
                 if (value!.isEmpty) {
                   return 'Please enter your medical specialty';
@@ -450,8 +620,11 @@ class DoctorSignUpPage extends StatelessWidget {
                 return null;
               },
             ),
+            SizedBox(
+              height: 15,
+            ),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Health Care Center (ID)'),
+              decoration: textFormFieldDecoration('Health Care Center (ID)'),
               validator: (value) {
                 if (value!.isEmpty) {
                   return 'Please enter the health care center ID';
@@ -476,7 +649,7 @@ class DoctorSignUpPage extends StatelessWidget {
 
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => NextPage()),
+                      MaterialPageRoute(builder: (context) => CenterHome()),
                     );
                   },
                   child: Text('Finish'),
@@ -485,20 +658,6 @@ class DoctorSignUpPage extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class NextPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Next Page'),
-      ),
-      body: Center(
-        child: Text('Next Page Content'),
       ),
     );
   }

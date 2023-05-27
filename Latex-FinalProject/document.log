@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  12 MAY 2023 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  23 MAY 2023 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,8 +582,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 		\subsection{Literature Review}
-                                       [1]
+l.118 			
+          [1]
 Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
@@ -789,6 +789,12 @@ Overfull \hbox (32.73122pt too wide) in paragraph at lines 129--157
  []
 
 [3]
+Overfull \hbox (1.85011pt too wide) in paragraph at lines 159--160
+[]\OT1/cmr/m/n/12 Patient Tracker App is specif-i-cally fo-cused on the Beth-le
+-hem area, whereas
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
@@ -1259,11 +1265,11 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 Here is how much of TeX's memory you used:
  12928 strings out of 478268
  210680 string characters out of 5846346
- 554320 words of memory out of 5000000
+ 554321 words of memory out of 5000000
  30744 multiletter control sequences out of 15000+600000
  479928 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,21n,77p,1173b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,21n,77p,1280b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -1272,7 +1278,7 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
 al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on document.pdf (45 pages, 393373 bytes).
+Output written on document.pdf (45 pages, 394240 bytes).
 PDF statistics:
  704 PDF objects out of 1000 (max. 8388607)
  630 compressed objects within 7 object streams

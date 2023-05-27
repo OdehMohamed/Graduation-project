@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
 import '../Pages/CenterPages/HomePage.dart';
+import '../Pages/PatientPages/PatientHome.dart';
+import '../Widget/ErrorLogin.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -11,6 +12,14 @@ class _LoginScreenState extends State<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
   String _email = '';
   String _password = '';
+
+  bool passwordVisible = false;
+
+  @override
+  void initState() {
+    super.initState();
+    passwordVisible = true;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
           key: _formKey,
           child: ListView(
             children: <Widget>[
-              ListTile(
+              const ListTile(
                 title: Expanded(
                     child: Text(
                   "Patient-Tracker",
@@ -36,8 +45,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   textAlign: TextAlign.center,
                 )),
               ),
-              SizedBox(height: 30),
-              ListTile(
+              const SizedBox(height: 30),
+              const ListTile(
                   title: Text(
                 "Sign in",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -76,7 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ListTile(
                 title: TextFormField(
                   keyboardType: TextInputType.text,
-                  obscureText: true,
+                  obscureText: passwordVisible,
                   decoration: InputDecoration(
                     labelText: 'Password',
                     prefixIcon: Icon(Icons.lock),
@@ -90,6 +99,18 @@ class _LoginScreenState extends State<LoginScreen> {
                       gapPadding: 0.0,
                       borderRadius: BorderRadius.circular(30),
                       borderSide: BorderSide(color: Colors.green, width: 1.5),
+                    ),
+                    suffixIcon: IconButton(
+                      icon: Icon(passwordVisible
+                          ? Icons.visibility
+                          : Icons.visibility_off),
+                      onPressed: () {
+                        setState(
+                          () {
+                            passwordVisible = !passwordVisible;
+                          },
+                        );
+                      },
                     ),
                   ),
                   validator: (value) {
@@ -118,6 +139,16 @@ class _LoginScreenState extends State<LoginScreen> {
                             builder: (context) => CenterHome(),
                           ),
                         );
+                      } else if (_email == 'patient' &&
+                          _password == 'password') {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => PatientHome(),
+                          ),
+                        );
+                      } else {
+                        ErrorLogin(context);
                       }
                     }
                   },
