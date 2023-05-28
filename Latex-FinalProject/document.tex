@@ -172,9 +172,15 @@
 			\begin{center}
 			\end{center}
 			\textbf{\underline{The excluded functions:}} \\
-
-			This system will not send and receive any information or services other than the patient’s ones, so it will not be able to receive them such as medical staff records. For example, its task is not in the educational or commercial sector. \\
-			\\
+			\begin{itemize}
+				\item Medication Reminders: Set reminders for timely medication.
+				\item Appointment Management: Schedule and manage medical appointments.
+				\item Data Visualization: Visualize health data.
+				\item Health Education: Provide educational resources.
+				\item Personalized Recommendations: Receive personalized health recommendations.
+				
+			\end{itemize}
+			 
 			\textbf{\underline{Clients:}}\\
 			
 			This project targets specific patients throughout Bethlehem, and a number of experts, clinics, hospitals, and investors are working on it to help and support all the patients and their families to use and achieve the main goal of protecting and caring for these patients. 
@@ -709,57 +715,55 @@
 			\subsubsection{Algorithms}
 			
 			\quad The Advanced Encryption Standard (AES) is widely regarded as one of the best symmetric encryption algorithms currently available. Its high level of security, speed, and versatility make it a popular choice for protecting sensitive data in various industries, including healthcare. AES is frequently used to safeguard personal and medical information, among other things.
-			
 			SHA (Secure Hash Algorithm) is a family of cryptographic hash functions commonly employed to create digital signatures and authenticate data integrity.
+			
 			Encryption is the method of transforming data so that it is unreadable without the proper decryption key. Encryption is used to maintain data confidentiality during storage or transmission, ensuring that only authorized users can access it. Hashing, on the other hand, is the process of converting data into a fixed-length value or key that represents the original data. The purpose of hashing is to confirm the data's integrity and authenticity. Hashing creates a unique digital fingerprint of the data that can be used to check if the data has been tampered with or altered. In summary, encryption protects data confidentiality, while hashing verifies data integrity and authenticity.
 			
 			Both AES and SHA-256 are widely acknowledged as efficient and do not consume excessive battery power on mobile devices when appropriately implemented and optimized. However, the battery usage of any algorithm is determined by various factors such as the size of data being encrypted/hashed, the frequency of encryption/hashing, and the hardware and software specifications of the device itself.
+			
 			AES and SHA-256 are recognized as the best encryption and hashing algorithms, respectively, due to their strong security features and efficiency. They have been extensively used in many applications, including mobile devices, and have proven energy-efficient. Moreover, AES and SHA-256 are widely accepted and recommended by industry experts because they provide a high level of security and protection for sensitive data such as personal and medical information, which is critical for a patient tracker app.
 			
-			It's important to note that encryption and hashing algorithms are not specific to GPS, BLE, or Wi-Fi-based tracking, but rather are used to protect data in general. The choice of tracking method would depend on factors such as the required level of accuracy, the battery life of the device, and the infrastructure available for tracking.
 			
 			\subsubsection{PseudoCode}
-			\textbf{START}
 			
 			\begin{itemize}
-				\item Define the app requirements and features, including:
+				\item Display welcome message and main menu options.
+				\item Prompt the user to select an option from the main menu.
+				\item If the user selects "Add patient":
 				\begin{itemize}
-					\item User authentication (login and registration).
-					\item Tracking patient location.
-					\item Monitoring patient health status.
-					\item Handling sensitive personal and medical data with security features.
+					\item Prompt user to enter patient information.
+					\item Add patient information to the patient list.
 				\end{itemize}
-				\item Create a new Flutter project.
-				\item Set up the necessary dependencies and packages, including:
+				\item If the user selects "View patient":
 				\begin{itemize}
-					\item firebase\_auth for user authentication.
-					\item cloud\_firestore for accessing and storing data in Firestore.
-					\item location for tracking user location.
-					\item crypto for hashing and encrypting sensitive data.
+					\item Prompt user to enter patient name or ID.
+					\item Search the patient list for patient information.
+					\item Display patient information.
 				\end{itemize}
+				\item If the user selects "Update patient":
+				\begin{itemize}
+					\item Prompt user to enter patient name or ID.
+					\item Search the patient list for patient information.
+					\item Prompt user to update patient information.
+					\item Update patient information in the patient list.
+				\end{itemize}
+				\item If the user selects "Delete patient":
+				\begin{itemize}
+					\item Prompt user to enter patient name or ID.
+					\item Search the patient list for patient information.
+					\item Remove patient information from a patient list.
+				\end{itemize}
+				\item If the user selects "Exit":
+				\begin{itemize}
+					\item Display the exit message and terminate the program.
+				\end{itemize}
+				\item If the user selects an invalid option:
+				\begin{itemize}
+					\item Display an error message and prompt the user to select a valid option.
+				\end{itemize}
+				\item Repeat step 2 until the user selects "Exit".
 			\end{itemize}
-			\textbf{PROCESS}
 			
-			\begin{itemize}
-				\item Create a user registration form for new patients to sign up with their email and password.
-				\item Implement a function to hash the user password using SHA256 and create a new user with Firebase Authentication using the email and hashed password.
-				\item Save the user's email and an empty location and health status field to Firestore as a new document with the user's unique ID as the document ID.
-				\item Create a user login form for returning patients to sign in with their email and password.
-				\item Implement a function to hash the user password using SHA256 and authenticate the user with Firebase Authentication using the email and hashed password.
-				\item Retrieve the user's data from Firestore using their unique ID as the document ID.
-				\item Display the user's location on a map using the location package.
-				\item Implement a function to update the user's location or site in Firestore whenever their location changes.
-				\item Create a form for the user to update their health status, and save the health status to Firestore as a field in their document.
-				\item Implement security features such as access control and data validation to ensure that only authorized users can access and modify sensitive data.
-				\item Encrypt sensitive data using the crypto package for added security.
-				
-			\end{itemize}
-			\textbf{END}
-			\begin{itemize}
-				\item Test the app thoroughly to ensure that all features and functionality are working as intended.
-				\item Deploy the app to the app stores for patients to download and use.
-				
-			\end{itemize}
 		
 			\subsection{Class Diagram}
 			\subsection{Sequence Diagrams}
@@ -815,12 +819,62 @@
 			\section*{\begin{center}
 					Chapter Six
 			\end{center}}
+			\section{TESTING}
 			\subsection{Introduction}
 			
 			\subsection{System Testing}
+			\quad System testing is an essential part of software development that involves testing the entire system or software application as a whole to ensure that it meets the required specifications and functions properly. Different types of system testing, such as functional testing, performance testing, security testing, and usability testing, are performed to verify the system's quality, reliability, and integrity.
+			
+			here are the different types of system testing that can be performed for a patient tracker app:
+			\begin{itemize}
+				
+		
+			\item 	Functional testing: This type of testing verifies that the app is functioning correctly and all the features are working as expected. It includes testing of features like user authentication, data collection and storage, location tracking, data visualization, and alerting.
+			
+			\item 	Usability testing: This type of testing is done to evaluate the app's ease of use, user interface, and user experience. It involves testing the app's navigation, layout, responsiveness, and overall design.
+			
+			\item 	Performance testing: This type of testing is done to measure the app's performance under different conditions. It includes testing the app's speed, stability, and scalability, and how it handles a large number of users.
+			
+			\item 	Security testing: This type of testing is done to identify and address potential security vulnerabilities in the app. It includes testing the app's encryption, data transmission, user authentication, and access control.
+			
+			\item 	Compatibility testing: This type of testing is done to ensure that the app is compatible with different devices, operating systems, and network environments. It involves testing the app on various platforms and devices to ensure it works as expected.
+			
+			\item 	Regression testing: This type of testing is done to ensure that the app's new features or updates do not break the existing functionality. It involves testing the app after each change or update to ensure that it is still functioning as expected
+			
+			\quad Performing all of these types of system testing can help ensure the quality, functionality, and security of the patient tracker app.
+			
+			
+			\quad Also, it is important to have a well-defined testing plan and test cases to ensure that all aspects of the app are thoroughly tested
+			
+			\quad Automated Testing: Automated testing involves using software tools to test the app automatically. This method can be used to test app functionality, performance, and scalability. Automated testing is a good option for large projects or projects that require frequent testing, as it is more efficient than manual testing. However, it can be expensive and may require specialized knowledge and resources.
+			
+			\quad Automated testing is useful for the patient tracker app because it allows for faster and more consistent testing of the app's functionality, ensuring that the app meets the necessary quality standards before deployment. Since patient tracker apps often deal with sensitive personal health information and have real-world implications for patient health and safety, it is important to thoroughly test the app's functionality to ensure that it works as intended and that patient data is kept secure.
+			
+			\quad Automated testing can be used to simulate real-world scenarios and test various aspects of the app's functionality, such as user authentication, data encryption, GPS tracking, and notifications. By automating these tests, developers can easily and consistently test the app's functionality, which can help catch bugs and other issues before they become bigger problems.
+			
+			\quad Additionally, automated testing can help reduce the risk of human error in testing, as automated tests are typically more reliable and consistent than manual testing. This can help improve the app's overall quality and reduce the risk of errors or issues that could potentially harm patient health or compromise sensitive patient data.
+			
+			
+			\quad Manual testing is best for patient tracker apps in certain scenarios, such as when testing the user interface and user experience. This is because human testers can more easily identify visual and usability issues that automated testing tools may not be able to detect. 
+			
+			\quad Manual testing can also be useful for testing the app's functionality in specific use cases and scenarios that automated testing may not easily cover. In addition, manual testing can provide valuable feedback on the overall quality and usability of the app from the perspective of a real user. However, manual testing can also be time-consuming and resource-intensive, which is why it is often used in combination with automated testing to achieve a more comprehensive testing approach.
+			
+			
+			
+			\quad By combining both manual and automated testing, we can achieve a more comprehensive testing approach that covers a wider range of scenarios and increases the chances of detecting and fixing any issues in the patient tracker app. Manual testing can also help identify usability issues and provide feedback on the app's overall user experience, while automated testing can help catch bugs quickly and efficiently.
+			
+			
+			\end{itemize}
 			\subsection{System Integration}
+			\quad System integrity for a patient tracker app refers to the ability of the app to maintain the confidentiality, availability, and accuracy of patient data. This includes ensuring that the app is secure and that only authorized users have access to patient data. It also involves implementing measures to prevent data loss, data corruption, and unauthorized modification of data. In addition, the app must be designed to function reliably and with high availability so that patient data can be accessed and used as needed. Overall, system integrity is critical for patient tracker apps to ensure that patient data is protected and that the app functions effectively to support patient care.\\
+			
+			\quad Automated testing can help ensure the integrity of the data in a patient tracker app by detecting any potential bugs or errors in the code that could compromise the security or accuracy of the data. Automated tests can be run on a regular basis to check that the app is functioning properly and that the data being collected and stored is accurate and secure. This can help catch any issues early on before they become major problems, allowing developers to quickly address any issues and ensure that the app is operating as intended. Additionally, automated testing can help reduce the risk of human error, which can be a major factor in data integrity issues.
 			\subsection{System Testing Result}
+			
+			\quad The system testing result for a patient tracker app that has undergone both automated and manual testing, with a focus on maintaining data integrity, would likely be a more robust and reliable application. The combination of automated and manual testing can provide a more comprehensive approach to identifying and addressing potential issues or bugs, as well as ensuring that the app meets the requirements and needs of its users. Additionally, maintaining data integrity is crucial for a patient tracker app, as it involves sensitive and confidential information. By using both automated and manual testing, the app's functionality and data security can be thoroughly evaluated and improved. Ultimately, this can result in an app that is more trustworthy and effective in tracking patient health and wellness.
 			\subsection{Summary}
+			
+			\quad Automated testing can quickly and efficiently identify issues in patient tracker apps, while manual testing allows for a more thorough examination of user experience. The combination of both testing methods can provide comprehensive results and help ensure the integrity of the app's data. Security measures, such as encryption and secure data storage, are also important for maintaining data integrity.
 			
 			\section*{\begin{center}
 					Chapter Seven

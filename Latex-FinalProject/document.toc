@@ -3,7 +3,7 @@
 \contentsline {subsection}{\numberline {1.1}Introduction }{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Literature Review}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Project Scope}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Problem Statement}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.4}Problem Statement}{6}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Project Objectives}{6}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Project Benefits}{7}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}Project Methodology}{8}{subsection.1.7}%
@@ -42,17 +42,18 @@
 \contentsline {subsection}{\numberline {4.3}Sequence Diagrams}{34}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Entity Relationship Diagram (ERD)}{34}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Functions Design and Activity Diagrams}{34}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Input/ Output Design}{35}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Summary}{36}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.6}Input/ Output Design}{34}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Summary}{35}{subsection.4.7}%
 \contentsline {section}{\numberline {5}SYSTEM DEVELOPMENT}{36}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Introduction}{36}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}User Interfaces}{36}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Summary}{36}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Introduction}{37}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}System Testing}{37}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}System Integration}{37}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}System Testing Result}{37}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Summary}{37}{subsection.5.8}%
-\contentsline {section}{\numberline {6}CONCLUSION AND FUTURE WORKS}{37}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Conclusion}{37}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Future Works}{37}{subsection.6.2}%
+\contentsline {section}{\numberline {6}TESTING}{36}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{36}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}System Testing}{36}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}System Integration}{38}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}System Testing Result}{39}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Summary}{39}{subsection.6.5}%
+\contentsline {section}{\numberline {7}CONCLUSION AND FUTURE WORKS}{40}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Conclusion}{40}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Future Works}{40}{subsection.7.2}%
