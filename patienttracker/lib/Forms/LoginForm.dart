@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:patienttracker/globalVar/globalvar.dart';
 import '../Pages/CenterPages/HomePage.dart';
 import '../Pages/PatientPages/PatientHome.dart';
 import '../Widget/ErrorLogin.dart';
@@ -133,6 +134,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       // TODO: Implement login logic
                       // Check user credentials and navigate to the appropriate screen
                       if (_email == 'center' && _password == 'password') {
+                        userName = 'center';
+                        typeOfUser = 'center';
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
@@ -141,6 +144,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         );
                       } else if (_email == 'patient' &&
                           _password == 'password') {
+                        userName = 'patient';
+                        typeOfUser = 'patient';
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(

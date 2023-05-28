@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:patienttracker/Forms/SignUpPage.dart';
 import 'package:patienttracker/Pages/GeneralPages/MainDrawer.dart';
 import 'package:patienttracker/Widget/SignOutDialog.dart';
+import 'package:patienttracker/globalVar/globalvar.dart';
 
 import '../../Widget/ElevatedButtonHome.dart';
 

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:patienttracker/Forms/LoginForm.dart';
 import 'package:patienttracker/Pages/LaunchScreen.dart';
 
+import 'Pages/PatientPages/PatientHome.dart';
+
 void main() {
   runApp(MyApp());
 }

@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:patienttracker/Pages/CenterPages/HomePage.dart';
+import 'package:patienttracker/Pages/GeneralPages/MyInfo.dart';
+import 'package:patienttracker/Pages/PatientPages/PatientHome.dart';
 import 'package:patienttracker/Widget/SignOutDialog.dart';
+import 'package:patienttracker/globalVar/globalvar.dart';
 
 class MainDrawer extends StatelessWidget {
   final String opt1, opt2, opt3, opt4;
@@ -29,10 +33,37 @@ class MainDrawer extends StatelessWidget {
               )),
           ListTile(
             title: Text(
+              "Home",
+              style: TextStyle(fontSize: 20),
+            ),
+            onTap: () {
+              if (typeOfUser == "center")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CenterHome()),
+                );
+              else if (typeOfUser == "patient")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => PatientHome()),
+                );
+            },
+          ),
+          Divider(
+            height: 1,
+            color: Colors.green,
+          ),
+          ListTile(
+            title: Text(
               "My Info",
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MyInfo()),
+              );
+            },
           ),
           Divider(
             height: 1,
