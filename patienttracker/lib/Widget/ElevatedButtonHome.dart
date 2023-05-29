@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 ElevatedButtonHome() {
   return ElevatedButton.styleFrom(
-    backgroundColor: Colors.grey,
+    backgroundColor: Color.fromARGB(255, 229, 248, 230),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.only(
         topLeft: Radius.circular(50),

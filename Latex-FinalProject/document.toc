@@ -39,21 +39,21 @@
 \contentsline {subsubsection}{\numberline {4.1.1}Algorithms}{32}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}PseudoCode}{33}{subsubsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.2}Class Diagram}{34}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Sequence Diagrams}{34}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Entity Relationship Diagram (ERD)}{34}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Functions Design and Activity Diagrams}{34}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Input/ Output Design}{34}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Summary}{35}{subsection.4.7}%
-\contentsline {section}{\numberline {5}SYSTEM DEVELOPMENT}{36}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Introduction}{36}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}User Interfaces}{36}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Summary}{36}{subsection.5.3}%
-\contentsline {section}{\numberline {6}TESTING}{36}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Introduction}{36}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}System Testing}{36}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}System Integration}{38}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}System Testing Result}{39}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Summary}{39}{subsection.6.5}%
-\contentsline {section}{\numberline {7}CONCLUSION AND FUTURE WORKS}{40}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Conclusion}{40}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Future Works}{40}{subsection.7.2}%
+\contentsline {subsection}{\numberline {4.3}Sequence Diagrams}{35}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Entity Relationship Diagram (ERD)}{36}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Functions Design and Activity Diagrams}{37}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Input/ Output Design}{38}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Summary}{38}{subsection.4.7}%
+\contentsline {section}{\numberline {5}SYSTEM DEVELOPMENT}{39}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{39}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}User Interfaces}{40}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Summary}{43}{subsection.5.3}%
+\contentsline {section}{\numberline {6}TESTING}{44}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{44}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}System Testing}{44}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}System Integration}{46}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}System Testing Result}{47}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Summary}{47}{subsection.6.5}%
+\contentsline {section}{\numberline {7}CONCLUSION AND FUTURE WORKS}{48}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Conclusion}{48}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Future Works}{49}{subsection.7.2}%

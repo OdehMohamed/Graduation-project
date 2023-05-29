@@ -17,7 +17,8 @@ class MainDrawer extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
-              decoration: BoxDecoration(color: Colors.green),
+              decoration:
+                  BoxDecoration(color: Color.fromARGB(255, 195, 243, 197)),
               child: Column(
                 children: [
                   Image.asset(

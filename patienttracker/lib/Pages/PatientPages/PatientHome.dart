@@ -4,6 +4,7 @@ import 'package:patienttracker/Pages/GeneralPages/MainDrawer.dart';
 import 'package:patienttracker/Widget/SignOutDialog.dart';
 
 import '../../Widget/ElevatedButtonHome.dart';
+import '../../Widget/FloatingActionButton.dart';
 
 class PatientHome extends StatefulWidget {
   const PatientHome({Key? key}) : super(key: key);
@@ -30,13 +31,7 @@ class _PatientHomeState extends State<PatientHome> {
       ),
       drawer: const MainDrawer(
           "My Group", "My Doctor", "My Family Member", "HealthCare Center"),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          SingOutDialog(context);
-        },
-        child: Icon(Icons.logout_rounded),
-        backgroundColor: Colors.green,
-      ),
+      floatingActionButton: floatButton(context),
       body: Container(
         padding: EdgeInsets.all(20),
         height: double.infinity,

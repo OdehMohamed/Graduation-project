@@ -19,8 +19,9 @@ class MyApp extends StatelessWidget {
       },
       initialRoute: '/',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
-        appBarTheme: AppBarTheme(color: Colors.green),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 195, 243, 197)),
+        appBarTheme: AppBarTheme(color: Color.fromARGB(255, 195, 243, 197)),
         useMaterial3: true,
       ),
       home: LaunchScreen(),

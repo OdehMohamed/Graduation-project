@@ -164,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 title: InkWell(
                   onTap: () {},
                   child: const Text(
-                    'forget password?',
+                    'forgot password?',
                     style: TextStyle(
                       color: Colors.blue,
                       decoration: TextDecoration.underline,

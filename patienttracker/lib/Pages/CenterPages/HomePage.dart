@@ -5,6 +5,7 @@ import 'package:patienttracker/Widget/SignOutDialog.dart';
 import 'package:patienttracker/globalVar/globalvar.dart';
 
 import '../../Widget/ElevatedButtonHome.dart';
+import '../../Widget/FloatingActionButton.dart';
 
 class CenterHome extends StatelessWidget {
   const CenterHome({Key? key}) : super(key: key);
@@ -20,13 +21,7 @@ class CenterHome extends StatelessWidget {
       ),
       drawer:
           const MainDrawer("Groups", "Doctors", "Family Members", "Patients"),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          SingOutDialog(context);
-        },
-        child: Icon(Icons.logout_rounded),
-        backgroundColor: Colors.green,
-      ),
+      floatingActionButton: floatButton(context),
       body: Container(
         padding: EdgeInsets.all(20),
         height: double.infinity,

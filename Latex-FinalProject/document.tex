@@ -287,6 +287,8 @@
 				\item Lack of integration with other features: Desktop apps may not be able to integrate with other features such as push notifications, which can limit their functionality.
 				\item Lack of offline functionality: Desktop apps generally require an internet connection to function, which can be a limitation in situations where internet connectivity is limited.
 			\end{enumerate}
+		
+		There are several mobile application frameworks available, each with its own strengths and differences. Here is a brief description of some popular mobile application frameworks:
 		\begin{table}[!h]
 			\centering
 			\caption{Difference Between Mobile Application FrameWorks\cite{nawrocki2021comparison}}
@@ -766,8 +768,35 @@
 			
 		
 			\subsection{Class Diagram}
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=\textwidth]{ClassDiagram.png}
+				\caption{Class Diagram}
+				\label{Class Diagram}
+			\end{figure}
+		
+		\newpage
+		
 			\subsection{Sequence Diagrams}
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=\textwidth]{sequanceDiagram.png}
+				\caption{Sequence Diagram}
+				\label{Sequence Diagram}
+			\end{figure}
+		
+		\newpage
+		
 			\subsection{Entity Relationship Diagram (ERD)}
+				\begin{figure}[!h]
+				\centering
+				\includegraphics[width=\textwidth]{ERD.png}
+				\caption{Entity Relationship Diagram (ERD)}
+				\label{Entity Relationship Diagram (ERD)}
+			\end{figure}
+		
+		\newpage
+		
 			\subsection{Functions Design and Activity Diagrams}
 			\textbf{Functions Design :}
 			\begin{itemize}
@@ -780,7 +809,14 @@
 				\item Alerting users and medical professionals in case of critical changes in users’ health status.
 				
 			\end{itemize}
+		
 			\textbf{Activity Diagrams :}
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=0.8\textwidth]{Activity.png}
+				\caption{Activity Diagrams}
+				\label{Activity Diagrams}
+			\end{figure}
 			\subsection{Input/ Output Design}
 			\textbf{Input :}
 			\begin{itemize}
@@ -813,14 +849,141 @@
 			
 			\section{SYSTEM DEVELOPMENT}
 			\subsection{Introduction}
+			
+			\quad The patient tracker system plays a crucial role in modern healthcare by enabling effective
+			monitoring and management of patient information. System development for a patient
+			tracker system involves the design, development, and implementation of software
+			solutions tailored to the specific needs of healthcare organizations. It aims to provide
+			healthcare professionals with a reliable and efficient platform to track and record patient
+			data, facilitate communication between healthcare providers, and improve overall patient
+			care.
+			
+			System development for a patient tracker system requires a thorough understanding of
+			healthcare processes, data privacy regulations, and the unique requirements of different
+			healthcare settings. It involves creating intuitive user interfaces, integrating with existing
+			healthcare systems, and ensuring data accuracy and security.
+			The development process includes stages such as requirements analysis, system design,
+			software development, testing, and deployment. Collaboration between healthcare
+			professionals, software developers, and system administrators is essential to ensure that
+			the patient tracker system meets the needs of all stakeholders and aligns with industry
+			standards and regulations.
+			
+			By implementing an effective patient tracker system, healthcare organizations can
+			enhance patient outcomes, streamline administrative tasks, and improve communication
+			and collaboration among healthcare providers. System development plays a vital role in
+			ensuring the successful implementation and utilization of patient tracker systems in the
+			healthcare industry.
+			\newpage
 			\subsection{User Interfaces}
+			
+			\quad \textbf{\underline{Launch icon and launch screen:}}
+			
+			\begin{figure}[!htb]
+				\begin{minipage}{0.48\textwidth}
+					\centering
+					\includegraphics[width=.5\linewidth]{launchIcon.jpg}
+					\caption{Launch icon}\label{Launch icon}
+				\end{minipage}\hfill
+				\begin{minipage}{0.48\textwidth}
+					\centering
+					\includegraphics[width=.4\linewidth]{launchScreen.png}
+					\caption{launch screen}\label{launch screen}
+				\end{minipage}
+			\end{figure}
+		
+			\textbf{Sign in Screen:}
+				\begin{figure}[!h]
+					\centering
+					\includegraphics[width=0.25\textwidth]{SignIn.png}
+					\caption{Sign in screen}
+					\label{Sign in  screen}
+				\end{figure}
+			\newpage
+		\textbf{\underline{HealthCare center screens:}}
+		\begin{figure}[!htb]
+			\begin{minipage}{0.48\textwidth}
+				\centering
+				\includegraphics[width=.5\linewidth]{healthCareCenterHome.png}
+				\caption{healthCare Center Home}\label{healthCare Center Home}
+			\end{minipage}\hfill
+			\begin{minipage}{0.48\textwidth}
+				\centering
+				\includegraphics[width=.5\linewidth]{DrawerHealthCare.png}
+				\caption{Drawer HealthCare}\label{Drawer HealthCare}
+			\end{minipage}
+		\end{figure}
+	
+		\begin{figure}[!htb]
+		\begin{minipage}{0.48\textwidth}
+			\centering
+			\includegraphics[width=.5\linewidth]{SignUpUser.png}
+			\caption{SignUp User}\label{SignUp User}
+		\end{minipage}\hfill
+		\begin{minipage}{0.48\textwidth}
+			\centering
+			\includegraphics[width=.5\linewidth]{signUpPatient1.png}
+			\caption{signUp Patient-1}\label{signUp Patient_1}
+		\end{minipage}
+	\end{figure}
+\newpage
+	\begin{figure}[!htb]
+	\begin{minipage}{0.48\textwidth}
+		\centering
+		\includegraphics[width=.5\linewidth]{SignUpPatient2.png}
+		\caption{SignUp Patient-2}\label{SignUp Patient_2}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\textwidth}
+		\centering
+		\includegraphics[width=.5\linewidth]{SignUpFamilyMember.png}
+		\caption{SignUp Family Member1}\label{SignUp Family Member}
+	\end{minipage}
+\end{figure}
+	\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.25\textwidth]{SignUpDoctor.png}
+	\caption{SignUp Doctor}
+	\label{SignUp Doctor}
+\end{figure}
+\newpage
+\textbf{\underline{Patient screens:}}
+\begin{figure}[!htb]
+	\begin{minipage}{0.48\textwidth}
+		\centering
+		\includegraphics[width=.5\linewidth]{PatientHome.png}
+		\caption{Patient Home}\label{Patient Home}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\textwidth}
+		\centering
+		\includegraphics[width=.5\linewidth]{PatientDrawer.png}
+		\caption{Patient Drawer}\label{Patient Drawer}
+	\end{minipage}
+\end{figure}
 			\subsection{Summary}
 			
+			\quad System development for a patient tracker system involves the design, development, and
+			implementation of software solutions to effectively monitor and manage patient 
+			information in healthcare settings. It aims to improve patient care by providing healthcare
+			professionals with a reliable platform for tracking and recording patient data, facilitating
+			communication, and streamlining administrative tasks. 
+			
+			Successful system development
+			leads to enhanced patient outcomes, improved communication among healthcare
+			providers, and increased efficiency in delivering healthcare services.
+			\newpage
 			\section*{\begin{center}
 					Chapter Six
 			\end{center}}
 			\section{TESTING}
 			\subsection{Introduction}
+			
+			\quad System testing plays a crucial role in the development of a patient tracker system. It is a
+			comprehensive and structured process that evaluates the functionality, performance, and
+			reliability of the system to ensure its effectiveness in managing patient information. The
+			main objective of system testing is to identify and resolve any defects, errors, or
+			inconsistencies in the system before it is deployed for actual use. Through rigorous
+			testing, the patient tracker system can be validated for accuracy, security, and usability,
+			ultimately ensuring that it meets the needs and expectations of healthcare professionals
+			and provides reliable and efficient patient tracking capabilities.
 			
 			\subsection{System Testing}
 			\quad System testing is an essential part of software development that involves testing the entire system or software application as a whole to ensure that it meets the required specifications and functions properly. Different types of system testing, such as functional testing, performance testing, security testing, and usability testing, are performed to verify the system's quality, reliability, and integrity.
@@ -881,7 +1044,73 @@
 			\end{center}}
 			\section{CONCLUSION AND FUTURE WORKS}
 			\subsection{Conclusion}
+			
+			\quad The patient tracker app is a powerful and comprehensive solution for managing and
+			tracking patient information in the healthcare sector. It offers a range of features and
+			functionalities that enhance communication, streamline processes, and improve overall
+			patient care.
+			With its user-friendly interface and intuitive design, the app provides healthcare
+			professionals with quick and easy access to vital patient data. It allows for efficient
+			tracking of patient demographics, medical history, vital signs, and current health status.
+			
+			This information empowers healthcare providers to make informed decisions, deliver
+			personalized care, and monitor patient progress effectively.
+			Through the integration of automated and manual testing, the app ensures the integrity
+			and accuracy of patient data. It undergoes rigorous testing to identify and address
+			potential issues or bugs, ensuring the app operates as intended and meets the needs of
+			healthcare professionals and patients.
+			The patient tracker app also plays a vital role in patient engagement and selfmanagement. It allows patients to input their medical information, track changes in their
+			health, and receive relevant notifications and reminders. This promotes proactive
+			healthcare management, empowers patients to take charge of their well-being, and
+			fosters a collaborative patient-provider relationship.
+			Furthermore, the app enhances communication and collaboration among healthcare team
+			members. 
+			
+			It enables seamless sharing of patient information, facilitates real-time updates,
+			and supports remote monitoring. This ensures that healthcare providers and caregivers
+			stay connected, enabling timely interventions and coordinated care.
+			In conclusion, the patient tracker app revolutionizes healthcare management by providing
+			a comprehensive platform for efficient patient tracking, secure data management, and
+			improved communication. It empowers healthcare professionals, engages patients in their
+			own care, and ultimately contributes to better health outcomes. With its innovative
+			features and focus on patient-centered care, the patient tracker app is poised to
+			transform the healthcare landscape.
 			\subsection{Future Works}
+			
+			While the patient tracker app has made significant strides in improving patient care and
+			healthcare management, there are several areas of future work that will enhance its
+			functionality and expand its reach.
+			\begin{itemize}
+			\item  Security and Validation: As patient data security and privacy continue to be
+			paramount concerns, ongoing efforts will focus on strengthening the app's security
+			measures. This includes implementing robust encryption protocols, ensuring secure
+			data storage and transmission, and conducting regular security audits. Additionally,
+			continuous validation of the app's data inputs and outputs will be essential to
+			maintain data integrity and prevent any vulnerabilities or unauthorized access.
+			\item Full Testing and Quality Assurance: Although the app has undergone extensive
+			testing, continuous testing, and quality assurance will remain a crucial aspect of its
+			development. This includes performing comprehensive end-to-end testing, stress
+			testing, and performance optimization. By identifying and resolving any potential
+			issues, the app can deliver a seamless and reliable experience to healthcare
+			providers and patients.
+			\item  Android Compatibility: While the initial focus may have been on the iOS system,
+			future work will involve developing an Android version of the patient tracker app. 
+			This expansion will allow a broader range of users to access and benefit from its
+			features, thereby increasing its overall impact and reach in the healthcare sector.
+			\item  Excluded Functions: Throughout the development process, certain functions may
+			have been excluded from the initial release to prioritize core features and ensure a
+			seamless user experience. Future work will involve revisiting these excluded
+			functions and incorporating them into the app's roadmap. This could include
+			additional features such as medication reminders, instructions on first aid,
+			appointment scheduling, integration with wearable devices, and telemedicine
+			capabilities, among others.
+			\end{itemize}
+			
+			By addressing these areas of future work, the patient tracker app will continue to evolve
+			and adapt to the changing needs of the healthcare industry. With enhanced security,
+			expanded platform compatibility, and the inclusion of additional functions, the app will
+			continue to play a pivotal role in revolutionizing patient care, improving outcomes, and
+			empowering both healthcare providers and patients.
 	\bibliographystyle{IEEEtran}
 	\bibliography{references}
 \end{document}
