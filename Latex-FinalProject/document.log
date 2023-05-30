@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  29 MAY 2023 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  31 MAY 2023 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1226,147 +1226,193 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--560
  []
 
 [23] [24] [25] [26] [27]
-Overfull \hbox (24.13565pt too wide) in paragraph at lines 634--634
+Overfull \hbox (24.13565pt too wide) in paragraph at lines 635--635
 |[]\OT1/cmr/bx/n/17.28 SYSTEM FUNC-TIONAL RE-QUIRE-MENTS
  []
 
 <image//use-diagram.png, id=606, 655.44875pt x 473.77pt>
 File: image//use-diagram.png Graphic file (type png)
 <use image//use-diagram.png>
-Package pdftex.def Info: image//use-diagram.png  used on input line 644.
+Package pdftex.def Info: image//use-diagram.png  used on input line 645.
 (pdftex.def)             Requested size: 312.00119pt x 225.5202pt.
 <image//context-diagram.jpg, id=607, 1005.7575pt x 613.54219pt>
 File: image//context-diagram.jpg Graphic file (type jpg)
 <use image//context-diagram.jpg>
-Package pdftex.def Info: image//context-diagram.jpg  used on input line 650.
+Package pdftex.def Info: image//context-diagram.jpg  used on input line 651.
 (pdftex.def)             Requested size: 390.0pt x 237.9043pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28 <./image//use-diagram.png>] [29 <./image//context-diagram.jpg>]
-Overfull \hbox (13.78305pt too wide) in paragraph at lines 668--682
+Overfull \hbox (13.78305pt too wide) in paragraph at lines 669--683
  [][] 
  []
 
 
-Overfull \hbox (16.48445pt too wide) in paragraph at lines 688--702
+Overfull \hbox (16.48445pt too wide) in paragraph at lines 689--703
  [][] 
  []
 
-[30] [31] [32] [33]
-<image//ClassDiagram.png, id=634, 579.16376pt x 524.96124pt>
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--736
+
+ []
+
+[33] [34]
+<image//ClassDiagram.png, id=642, 579.16376pt x 524.96124pt>
 File: image//ClassDiagram.png Graphic file (type png)
 <use image//ClassDiagram.png>
-Package pdftex.def Info: image//ClassDiagram.png  used on input line 773.
+Package pdftex.def Info: image//ClassDiagram.png  used on input line 787.
 (pdftex.def)             Requested size: 390.0pt x 353.50049pt.
- [34 <./image//ClassDiagram.png>]
-<image//sequanceDiagram.png, id=640, 617.30624pt x 522.95375pt>
+ [35 <./image//ClassDiagram.png>]
+<image//sequanceDiagram.png, id=648, 617.30624pt x 522.95375pt>
 File: image//sequanceDiagram.png Graphic file (type png)
 <use image//sequanceDiagram.png>
-Package pdftex.def Info: image//sequanceDiagram.png  used on input line 783.
+Package pdftex.def Info: image//sequanceDiagram.png  used on input line 797.
 (pdftex.def)             Requested size: 390.0pt x 330.39621pt.
- [35 <./image//sequanceDiagram.png>]
-<image//ERD.png, id=646, 640.3925pt x 542.025pt>
+ [36 <./image//sequanceDiagram.png>]
+<image//ERD.png, id=655, 640.3925pt x 542.025pt>
 File: image//ERD.png Graphic file (type png)
 <use image//ERD.png>
-Package pdftex.def Info: image//ERD.png  used on input line 793.
+Package pdftex.def Info: image//ERD.png  used on input line 807.
 (pdftex.def)             Requested size: 390.0pt x 330.09717pt.
- [36 <./image//ERD.png>]
-<image//Activity.png, id=653, 701.62125pt x 495.65175pt>
+
+[37 <./image//ERD.png>]
+<image//Activity.png, id=661, 701.62125pt x 495.65175pt>
 File: image//Activity.png Graphic file (type png)
 <use image//Activity.png>
-Package pdftex.def Info: image//Activity.png  used on input line 816.
+Package pdftex.def Info: image//Activity.png  used on input line 830.
 (pdftex.def)             Requested size: 312.00119pt x 220.41684pt.
- [37 <./image//Activity.png>] [38] [39]
-<image//launchIcon.jpg, id=668, 274.02374pt x 317.185pt>
+ [38 <./image//Activity.png>] [39] [40]
+<image//launchIcon.jpg, id=676, 274.02374pt x 317.185pt>
 File: image//launchIcon.jpg Graphic file (type jpg)
 <use image//launchIcon.jpg>
-Package pdftex.def Info: image//launchIcon.jpg  used on input line 884.
+Package pdftex.def Info: image//launchIcon.jpg  used on input line 898.
 (pdftex.def)             Requested size: 93.59917pt x 108.3448pt.
-<image//launchScreen.png, id=669, 1246.6575pt x 2698.08pt>
+<image//launchScreen.png, id=677, 1246.6575pt x 2698.08pt>
 File: image//launchScreen.png Graphic file (type png)
 <use image//launchScreen.png>
-Package pdftex.def Info: image//launchScreen.png  used on input line 889.
+Package pdftex.def Info: image//launchScreen.png  used on input line 903.
 (pdftex.def)             Requested size: 74.87819pt x 162.0425pt.
-<image//SignIn.png, id=670, 1246.6575pt x 2698.08pt>
+<image//SignIn.png, id=678, 1246.6575pt x 2698.08pt>
 File: image//SignIn.png Graphic file (type png)
 <use image//SignIn.png>
-Package pdftex.def Info: image//SignIn.png  used on input line 897.
+Package pdftex.def Info: image//SignIn.png  used on input line 911.
 (pdftex.def)             Requested size: 97.5pt x 210.99283pt.
-
-[40 <./image//launchIcon.jpg> <./image//launchScreen.png> <./image//SignIn.png>
-]
-<image//healthCareCenterHome.png, id=675, 1246.6575pt x 2698.08pt>
+ [41 <./image//launchIcon.jpg> <./image//launchScreen.png> <./image//SignIn.png
+>]
+<image//healthCareCenterHome.png, id=683, 1246.6575pt x 2698.08pt>
 File: image//healthCareCenterHome.png Graphic file (type png)
 <use image//healthCareCenterHome.png>
-Package pdftex.def Info: image//healthCareCenterHome.png  used on input line 90
-6.
+Package pdftex.def Info: image//healthCareCenterHome.png  used on input line 92
+0.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//DrawerHealthCare.png, id=676, 1246.6575pt x 2698.08pt>
+<image//DrawerHealthCare.png, id=684, 1246.6575pt x 2698.08pt>
 File: image//DrawerHealthCare.png Graphic file (type png)
 <use image//DrawerHealthCare.png>
-Package pdftex.def Info: image//DrawerHealthCare.png  used on input line 911.
+Package pdftex.def Info: image//DrawerHealthCare.png  used on input line 925.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpUser.png, id=677, 1246.6575pt x 2698.08pt>
+<image//SignUpUser.png, id=685, 1246.6575pt x 2698.08pt>
 File: image//SignUpUser.png Graphic file (type png)
 <use image//SignUpUser.png>
-Package pdftex.def Info: image//SignUpUser.png  used on input line 919.
+Package pdftex.def Info: image//SignUpUser.png  used on input line 933.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//signUpPatient1.png, id=678, 1246.6575pt x 2698.08pt>
+<image//signUpPatient1.png, id=686, 1246.6575pt x 2698.08pt>
 File: image//signUpPatient1.png Graphic file (type png)
 <use image//signUpPatient1.png>
-Package pdftex.def Info: image//signUpPatient1.png  used on input line 924.
+Package pdftex.def Info: image//signUpPatient1.png  used on input line 938.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
- [41 <./image//healthCareCenterHome.png> <./image//DrawerHealthCare.png> <./ima
+ [42 <./image//healthCareCenterHome.png> <./image//DrawerHealthCare.png> <./ima
 ge//SignUpUser.png> <./image//signUpPatient1.png>]
-<image//SignUpPatient2.png, id=683, 1246.6575pt x 2698.08pt>
+<image//SignUpPatient2.png, id=692, 1246.6575pt x 2698.08pt>
 File: image//SignUpPatient2.png Graphic file (type png)
 <use image//SignUpPatient2.png>
-Package pdftex.def Info: image//SignUpPatient2.png  used on input line 932.
+Package pdftex.def Info: image//SignUpPatient2.png  used on input line 946.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpFamilyMember.png, id=684, 1246.6575pt x 2698.08pt>
+<image//SignUpFamilyMember.png, id=693, 1246.6575pt x 2698.08pt>
 File: image//SignUpFamilyMember.png Graphic file (type png)
 <use image//SignUpFamilyMember.png>
-Package pdftex.def Info: image//SignUpFamilyMember.png  used on input line 937.
+Package pdftex.def Info: image//SignUpFamilyMember.png  used on input line 951.
 
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpDoctor.png, id=685, 1246.6575pt x 2698.08pt>
+<image//SignUpDoctor.png, id=694, 1246.6575pt x 2698.08pt>
 File: image//SignUpDoctor.png Graphic file (type png)
 <use image//SignUpDoctor.png>
-Package pdftex.def Info: image//SignUpDoctor.png  used on input line 943.
+Package pdftex.def Info: image//SignUpDoctor.png  used on input line 957.
 (pdftex.def)             Requested size: 97.5pt x 210.99283pt.
- [42 <./image//SignUpPatient2.png> <./image//SignUpFamilyMember.png> <./image//
+ [43 <./image//SignUpPatient2.png> <./image//SignUpFamilyMember.png> <./image//
 SignUpDoctor.png>]
-<image//PatientHome.png, id=691, 1246.6575pt x 2698.08pt>
+<image//PatientHome.png, id=699, 1246.6575pt x 2698.08pt>
 File: image//PatientHome.png Graphic file (type png)
 <use image//PatientHome.png>
-Package pdftex.def Info: image//PatientHome.png  used on input line 952.
+Package pdftex.def Info: image//PatientHome.png  used on input line 966.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//PatientDrawer.png, id=692, 1246.6575pt x 2698.08pt>
+<image//PatientDrawer.png, id=700, 1246.6575pt x 2698.08pt>
 File: image//PatientDrawer.png Graphic file (type png)
 <use image//PatientDrawer.png>
-Package pdftex.def Info: image//PatientDrawer.png  used on input line 957.
+Package pdftex.def Info: image//PatientDrawer.png  used on input line 971.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
- [43 <./image//PatientHome.png> <./image//PatientDrawer.png>] [44] [45]
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
+ [44 <./image//PatientHome.png> <./image//PatientDrawer.png>] [45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
 
  []
 
-[46] [47]
-Overfull \hbox (0.30937pt too wide) in paragraph at lines 1069--1078
+[47] [48]
+Overfull \hbox (0.30937pt too wide) in paragraph at lines 1083--1092
 \OT1/cmr/m/n/12 co-or-di-nated care. In con-clu-sion, the pa-tient tracker app 
 rev-o-lu-tion-izes health-
  []
 
-[48] (./document.bbl [49]) [50] (./document.aux)
+[49] (./document.bbl [50]
+Underfull \hbox (badness 1762) in paragraph at lines 58--60
+[]\OT1/cmr/m/n/12 S. I. O. f. S. Geneva, \OT1/cmr/m/it/12 Risk man-age-ment { G
+uide-lines\OT1/cmr/m/n/12 . ISO
+ []
+
+) [51] (./document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D018BA9A597F4451900134443B023348;8867.
  ) 
 Here is how much of TeX's memory you used:
- 13097 strings out of 478268
- 214685 string characters out of 5846346
- 555117 words of memory out of 5000000
- 30873 multiletter control sequences out of 15000+600000
+ 13106 strings out of 478268
+ 214836 string characters out of 5846346
+ 555149 words of memory out of 5000000
+ 30880 multiletter control sequences out of 15000+600000
  479928 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,21n,77p,1280b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1378,10 +1424,10 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
 al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on document.pdf (57 pages, 5118632 bytes).
+Output written on document.pdf (58 pages, 5121198 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 707 compressed objects within 8 object streams
- 224 named destinations out of 1000 (max. 500000)
+ 821 PDF objects out of 1000 (max. 8388607)
+ 713 compressed objects within 8 object streams
+ 226 named destinations out of 1000 (max. 500000)
  560 words of extra memory for PDF output out of 10000 (max. 10000000)
 

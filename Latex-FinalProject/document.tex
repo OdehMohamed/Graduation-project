@@ -573,8 +573,9 @@
 							\begin{itemize}
 								\item WhatsApp.
 								\item Google Meet.
-								\item Word Online documents.
+								\item Power Point Online.
 								\item Face-to-face meetings.
+								\item Github
 							\end{itemize}
 						\item Frequency of communication:
 						\begin{itemize}
@@ -591,7 +592,7 @@
 							\begin{itemize}
 								\item {[Hanna]} responsible for sharing project updates via email.
 								\item {[Roaa]} lead virtual meetings via Google Meet and will provide updates on progress.
-								\item {[Mohammad]} responsible for creating and updating the Word Online document with project information.
+								\item {[Mohammad]} responsible for creating and updating the \LaTeX \newline document with project information.
 							\end{itemize}
 						\item Decision-making:
 							\begin{itemize}
@@ -717,16 +718,29 @@
 			\subsubsection{Algorithms}
 			
 			\quad The Advanced Encryption Standard (AES) is widely regarded as one of the best symmetric encryption algorithms currently available. Its high level of security, speed, and versatility make it a popular choice for protecting sensitive data in various industries, including healthcare. AES is frequently used to safeguard personal and medical information, among other things.
-			SHA (Secure Hash Algorithm) is a family of cryptographic hash functions commonly employed to create digital signatures and authenticate data integrity.
+			SHA (Secure Hash Algorithm) is a family of cryptographic hash functions commonly employed to create digital signatures and authenticate data integrity.\\
 			
-			Encryption is the method of transforming data so that it is unreadable without the proper decryption key. Encryption is used to maintain data confidentiality during storage or transmission, ensuring that only authorized users can access it. Hashing, on the other hand, is the process of converting data into a fixed-length value or key that represents the original data. The purpose of hashing is to confirm the data's integrity and authenticity. Hashing creates a unique digital fingerprint of the data that can be used to check if the data has been tampered with or altered. In summary, encryption protects data confidentiality, while hashing verifies data integrity and authenticity.
+			Encryption is the method of transforming data so that it is unreadable without the proper decryption key. Encryption is used to maintain data confidentiality during storage or transmission, ensuring that only authorized users can access it. Hashing, on the other hand, is the process of converting data into a fixed-length value or key that represents the original data. The purpose of hashing is to confirm the data's integrity and authenticity. Hashing creates a unique digital fingerprint of the data that can be used to check if the data has been tampered with or altered. In summary, encryption protects data confidentiality, while hashing verifies data integrity and authenticity.\\
 			
-			Both AES and SHA-256 are widely acknowledged as efficient and do not consume excessive battery power on mobile devices when appropriately implemented and optimized. However, the battery usage of any algorithm is determined by various factors such as the size of data being encrypted/hashed, the frequency of encryption/hashing, and the hardware and software specifications of the device itself.
+			Both AES and SHA-256 are widely acknowledged as efficient and do not consume excessive battery power on mobile devices when appropriately implemented and optimized. However, the battery usage of any algorithm is determined by various factors such as the size of data being encrypted/hashed, the frequency of encryption/hashing, and the hardware and software specifications of the device itself.\\
 			
-			AES and SHA-256 are recognized as the best encryption and hashing algorithms, respectively, due to their strong security features and efficiency. They have been extensively used in many applications, including mobile devices, and have proven energy-efficient. Moreover, AES and SHA-256 are widely accepted and recommended by industry experts because they provide a high level of security and protection for sensitive data such as personal and medical information, which is critical for a patient tracker app.
+			AES and SHA-256 are recognized as the best encryption and hashing algorithms, respectively, due to their strong security features and efficiency. They have been extensively used in many applications, including mobile devices, and have proven energy-efficient. Moreover, AES and SHA-256 are widely accepted and recommended by industry experts because they provide a high level of security and protection for sensitive data such as personal and medical information, which is critical for a patient tracker app.\\
+			
+			The selection of the AES and SHA-256 algorithms for the patient tracker app was based on several key factors, including their strong security features, industry standards, and proven effectiveness in protecting sensitive data.\\
+			
+			AES (Advanced Encryption Standard) is a symmetric encryption algorithm that has been extensively analyzed and recognized by the National Institute of Standards and Technology (NIST) as a secure and efficient encryption algorithm \cite{daemen2002design}. It offers a high level of security, ensuring that patient data remains confidential and protected from unauthorized access.\\
+			
+			SHA-256 (Secure Hash Algorithm) is a cryptographic hash function that belongs to the SHA-2 family. It is widely used for data integrity and authentication purposes (NIST, 2015). SHA-256 generates a fixed-length hash value for input data, making it suitable for verifying the integrity of patient data stored in the database. It helps detect any unauthorized modifications or tampering with the data.\\
+			
+			The choice of AES and SHA-256 is also driven by their acceptance as industry standards and their widespread adoption in various applications, including mobile devices. These algorithms have undergone rigorous testing, analysis, and scrutiny by the cryptographic community, ensuring their reliability and effectiveness in securing sensitive information \cite{tuli2013review}.\\
+			
+			Additionally, AES and SHA-256 are known for their efficiency and low battery consumption when implemented correctly. This is crucial for mobile devices, as it helps optimize the app's performance and ensures a seamless user experience.
+			
 			
 			
 			\subsubsection{PseudoCode}
+			
+			\quad The patient tracker app offers a user-friendly interface for managing patient information. Users can add, view, update, and delete patient records. The app follows a clear flow, prompting users to select options from the main menu and guiding them through the corresponding actions. It ensures accurate and organized data management, handles invalid selections, and terminates upon choosing the "Exit" option. The app simplifies the process of managing patient information, providing an efficient and user-friendly experience.
 			
 			\begin{itemize}
 				\item Display welcome message and main menu options.

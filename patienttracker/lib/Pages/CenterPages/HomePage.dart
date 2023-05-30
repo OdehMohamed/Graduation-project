@@ -6,6 +6,7 @@ import 'package:patienttracker/globalVar/globalvar.dart';
 
 import '../../Widget/ElevatedButtonHome.dart';
 import '../../Widget/FloatingActionButton.dart';
+import 'Account(Disable/Enable).dart';
 
 class CenterHome extends StatelessWidget {
   const CenterHome({Key? key}) : super(key: key);
@@ -91,7 +92,10 @@ class CenterHome extends StatelessWidget {
             ListTile(
               title: ElevatedButton(
                 onPressed: () {
-                  // Add your action for the "Create Group" button here
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => AccountStatus()),
+                  );
                 },
                 style: ElevatedButtonHome(),
                 child: Row(

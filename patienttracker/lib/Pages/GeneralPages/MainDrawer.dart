@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:patienttracker/Pages/CenterPages/HomePage.dart';
+import 'package:patienttracker/Pages/GeneralPages/AboutUs.dart';
+import 'package:patienttracker/Pages/GeneralPages/ContactUs.dart';
 import 'package:patienttracker/Pages/GeneralPages/MyInfo.dart';
 import 'package:patienttracker/Pages/PatientPages/PatientHome.dart';
 import 'package:patienttracker/Widget/SignOutDialog.dart';
@@ -119,7 +121,12 @@ class MainDrawer extends StatelessWidget {
               "Contact us",
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ContactUs()),
+              );
+            },
           ),
           Divider(
             height: 1,
@@ -130,7 +137,12 @@ class MainDrawer extends StatelessWidget {
               "About us",
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AboutUs()),
+              );
+            },
           ),
           Divider(
             height: 1,
