@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  31 MAY 2023 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  31 MAY 2023 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,12 +1235,12 @@ Overfull \hbox (24.13565pt too wide) in paragraph at lines 645--645
 |[]\OT1/cmr/bx/n/17.28 SYSTEM FUNC-TIONAL RE-QUIRE-MENTS
  []
 
-<image//use-diagram.png, id=611, 655.44875pt x 473.77pt>
+<image//use-diagram.png, id=615, 655.44875pt x 473.77pt>
 File: image//use-diagram.png Graphic file (type png)
 <use image//use-diagram.png>
 Package pdftex.def Info: image//use-diagram.png  used on input line 655.
 (pdftex.def)             Requested size: 312.00119pt x 225.5202pt.
-<image//context-diagram.jpg, id=612, 1005.7575pt x 613.54219pt>
+<image//context-diagram.jpg, id=616, 1005.7575pt x 613.54219pt>
 File: image//context-diagram.jpg Graphic file (type jpg)
 <use image//context-diagram.jpg>
 Package pdftex.def Info: image//context-diagram.jpg  used on input line 661.
@@ -1299,123 +1299,433 @@ Underfull \hbox (badness 10000) in paragraph at lines 745--746
  []
 
 [33] [34]
-<image//ClassDiagram.png, id=647, 579.16376pt x 524.96124pt>
+<image//ClassDiagram.png, id=651, 579.16376pt x 524.96124pt>
 File: image//ClassDiagram.png Graphic file (type png)
 <use image//ClassDiagram.png>
 Package pdftex.def Info: image//ClassDiagram.png  used on input line 797.
 (pdftex.def)             Requested size: 390.0pt x 353.50049pt.
  [35 <./image//ClassDiagram.png>]
-<image//sequanceDiagram.png, id=653, 617.30624pt x 522.95375pt>
+<image//sequanceDiagram.png, id=657, 617.30624pt x 522.95375pt>
 File: image//sequanceDiagram.png Graphic file (type png)
 <use image//sequanceDiagram.png>
 Package pdftex.def Info: image//sequanceDiagram.png  used on input line 807.
 (pdftex.def)             Requested size: 390.0pt x 330.39621pt.
  [36 <./image//sequanceDiagram.png>]
-<image//ERD.png, id=660, 640.3925pt x 542.025pt>
+<image//ERD.png, id=664, 640.3925pt x 542.025pt>
 File: image//ERD.png Graphic file (type png)
 <use image//ERD.png>
 Package pdftex.def Info: image//ERD.png  used on input line 817.
 (pdftex.def)             Requested size: 390.0pt x 330.09717pt.
 
 [37 <./image//ERD.png>]
-<image//Activity.png, id=666, 701.62125pt x 495.65175pt>
+<image//Activity.png, id=670, 701.62125pt x 495.65175pt>
 File: image//Activity.png Graphic file (type png)
 <use image//Activity.png>
 Package pdftex.def Info: image//Activity.png  used on input line 840.
 (pdftex.def)             Requested size: 312.00119pt x 220.41684pt.
  [38 <./image//Activity.png>] [39] [40]
-<image//launchIcon.jpg, id=681, 274.02374pt x 317.185pt>
+<image//launchIcon.jpg, id=685, 274.02374pt x 317.185pt>
 File: image//launchIcon.jpg Graphic file (type jpg)
 <use image//launchIcon.jpg>
 Package pdftex.def Info: image//launchIcon.jpg  used on input line 908.
 (pdftex.def)             Requested size: 93.59917pt x 108.3448pt.
-<image//launchScreen.png, id=682, 1246.6575pt x 2698.08pt>
+<image//launchScreen.png, id=686, 1246.6575pt x 2698.08pt>
 File: image//launchScreen.png Graphic file (type png)
 <use image//launchScreen.png>
 Package pdftex.def Info: image//launchScreen.png  used on input line 913.
 (pdftex.def)             Requested size: 74.87819pt x 162.0425pt.
-<image//SignIn.png, id=683, 1246.6575pt x 2698.08pt>
+<image//SignIn.png, id=687, 1246.6575pt x 2698.08pt>
 File: image//SignIn.png Graphic file (type png)
 <use image//SignIn.png>
 Package pdftex.def Info: image//SignIn.png  used on input line 921.
 (pdftex.def)             Requested size: 97.5pt x 210.99283pt.
  [41 <./image//launchIcon.jpg> <./image//launchScreen.png> <./image//SignIn.png
 >]
-<image//healthCareCenterHome.png, id=688, 1246.6575pt x 2698.08pt>
+<image//healthCareCenterHome.png, id=692, 1246.6575pt x 2698.08pt>
 File: image//healthCareCenterHome.png Graphic file (type png)
 <use image//healthCareCenterHome.png>
 Package pdftex.def Info: image//healthCareCenterHome.png  used on input line 93
 0.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//DrawerHealthCare.png, id=689, 1246.6575pt x 2698.08pt>
+<image//DrawerHealthCare.png, id=693, 1246.6575pt x 2698.08pt>
 File: image//DrawerHealthCare.png Graphic file (type png)
 <use image//DrawerHealthCare.png>
 Package pdftex.def Info: image//DrawerHealthCare.png  used on input line 935.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpUser.png, id=690, 1246.6575pt x 2698.08pt>
+<image//SignUpUser.png, id=694, 1246.6575pt x 2698.08pt>
 File: image//SignUpUser.png Graphic file (type png)
 <use image//SignUpUser.png>
 Package pdftex.def Info: image//SignUpUser.png  used on input line 943.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//signUpPatient1.png, id=691, 1246.6575pt x 2698.08pt>
+<image//signUpPatient1.png, id=695, 1246.6575pt x 2698.08pt>
 File: image//signUpPatient1.png Graphic file (type png)
 <use image//signUpPatient1.png>
 Package pdftex.def Info: image//signUpPatient1.png  used on input line 948.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
  [42 <./image//healthCareCenterHome.png> <./image//DrawerHealthCare.png> <./ima
 ge//SignUpUser.png> <./image//signUpPatient1.png>]
-<image//SignUpPatient2.png, id=697, 1246.6575pt x 2698.08pt>
+<image//SignUpPatient2.png, id=701, 1246.6575pt x 2698.08pt>
 File: image//SignUpPatient2.png Graphic file (type png)
 <use image//SignUpPatient2.png>
 Package pdftex.def Info: image//SignUpPatient2.png  used on input line 956.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpFamilyMember.png, id=698, 1246.6575pt x 2698.08pt>
+<image//SignUpFamilyMember.png, id=702, 1246.6575pt x 2698.08pt>
 File: image//SignUpFamilyMember.png Graphic file (type png)
 <use image//SignUpFamilyMember.png>
 Package pdftex.def Info: image//SignUpFamilyMember.png  used on input line 961.
 
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpDoctor.png, id=699, 1246.6575pt x 2698.08pt>
+<image//SignUpDoctor.png, id=703, 1246.6575pt x 2698.08pt>
 File: image//SignUpDoctor.png Graphic file (type png)
 <use image//SignUpDoctor.png>
 Package pdftex.def Info: image//SignUpDoctor.png  used on input line 967.
 (pdftex.def)             Requested size: 97.5pt x 210.99283pt.
  [43 <./image//SignUpPatient2.png> <./image//SignUpFamilyMember.png> <./image//
 SignUpDoctor.png>]
-<image//PatientHome.png, id=704, 1246.6575pt x 2698.08pt>
+<image//PatientHome.png, id=708, 1246.6575pt x 2698.08pt>
 File: image//PatientHome.png Graphic file (type png)
 <use image//PatientHome.png>
 Package pdftex.def Info: image//PatientHome.png  used on input line 976.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//PatientDrawer.png, id=705, 1246.6575pt x 2698.08pt>
+<image//PatientDrawer.png, id=709, 1246.6575pt x 2698.08pt>
 File: image//PatientDrawer.png Graphic file (type png)
 <use image//PatientDrawer.png>
 Package pdftex.def Info: image//PatientDrawer.png  used on input line 981.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
- [44 <./image//PatientHome.png> <./image//PatientDrawer.png>] [45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+ [44 <./image//PatientHome.png> <./image//PatientDrawer.png>] [45] [46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
+[]|\OT1/cmr/bx/n/12 Test
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1062
+[]|\OT1/cmr/bx/n/12 Test Ob-
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 1062--1063
+[]|\OT1/cmr/bx/n/12 Expected Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
+[]|\OT1/cmr/m/n/12 Add Pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
+\OT1/cmr/m/n/12 tient
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1064--1064
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 1064--1064
+\OT1/cmr/m/n/12 - Add Pa-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1064--1065
+\OT1/cmr/m/n/12 tion is suc-cess-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
+[]|\OT1/cmr/m/n/12 View
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
+\OT1/cmr/m/n/12 Pa-tient
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1066--1066
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 1066--1066
+\OT1/cmr/m/n/12 - View Pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+[]|\OT1/cmr/m/n/12 Patient de-tails
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+\OT1/cmr/m/n/12 are dis-played
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/12 Update
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
+\OT1/cmr/m/n/12 Pa-tient
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1068--1068
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1068--1069
+\OT1/cmr/m/n/12 tion is suc-cess-
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 1070--1070
+\OT1/cmr/m/n/12 tient But-
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1070--1070
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1070--1071
+\OT1/cmr/m/n/12 tion is suc-cess-
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 1072--1072
+[]|\OT1/cmr/m/n/12 Save But-
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1072--1072
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 1072--1073
+\OT1/cmr/m/n/12 are suc-cess-fully
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
+[]|\OT1/cmr/m/n/12 Cancel
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1074--1074
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+[]|\OT1/cmr/m/n/12 Operation is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+\OT1/cmr/m/n/12 can-celed or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+\OT1/cmr/m/n/12 dis-carded as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1076
+[]|\OT1/cmr/m/n/12 Submit
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1076--1076
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1076
+\OT1/cmr/m/n/12 - Sub-mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+\OT1/cmr/m/n/12 is suc-cess-fully
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 1078--1078
+[]|\OT1/cmr/m/n/12 Back But-
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 1078--1079
+\OT1/cmr/m/n/12 pre-vi-ous screen
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 1080--1080
+[]|\OT1/cmr/m/n/12 Next But-
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 1080--1081
+\OT1/cmr/m/n/12 next screen as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
+[]|\OT1/cmr/m/n/12 Confirm
+ []
+
+
+Overfull \hbox (2.60788pt too wide) in paragraph at lines 1082--1082
+[]|\OT1/cmr/m/n/12 Functionality
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
+\OT1/cmr/m/n/12 - Con-firm
+ []
+
+
+Overfull \hbox (79.27441pt too wide) in paragraph at lines 1059--1085
+ [][] 
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
 
  []
 
-[47] [48]
-Overfull \hbox (0.30937pt too wide) in paragraph at lines 1093--1102
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1102
+[]|\OT1/cmr/bx/n/12 Test
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 1104--1104
+[]|\OT1/cmr/m/n/12 Functionality - Add
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 1108--1108
+[]|\OT1/cmr/m/n/12 Functionality - Up-
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 1112--1112
+\OT1/cmr/m/n/12 nav-i-ga-tion and user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+[]|\OT1/cmr/m/n/12 Intuitive nav-i-ga-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+\OT1/cmr/m/n/12 and user-friendly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1114
+[]|\OT1/cmr/m/n/12 Reliability - Data
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 1114--1115
+\OT1/cmr/m/n/12 and re-trieved ac-cu-
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 1116--1116
+[]|\OT1/cmr/m/n/12 Performance - App
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 1116--1116
+[]|\OT1/cmr/m/n/12 Measure the re-spon-
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 1116--1116
+\OT1/cmr/m/n/12 sive-ness and per-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1118
+[]|\OT1/cmr/m/n/12 Assess the se-cu-rity
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1118--1119
+[]|\OT1/cmr/m/n/12 Patient data is en-
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 1120--1120
+[]|\OT1/cmr/m/n/12 Compatibility - De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1120
+[]|\OT1/cmr/m/n/12 Verify com-pat-i-bil-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+[]|\OT1/cmr/m/n/12 App func-tions cor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+\OT1/cmr/m/n/12 rectly on var-i-ous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1122
+[]|\OT1/cmr/m/n/12 Evaluate the app's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1122
+\OT1/cmr/m/n/12 abil-ity to han-dle
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 1122--1123
+[]|\OT1/cmr/m/n/12 App grace-fully han-
+ []
+
+
+Overfull \hbox (29.88577pt too wide) in paragraph at lines 1099--1125
+ [][] 
+ []
+
+[50] [51]
+Overfull \hbox (0.30937pt too wide) in paragraph at lines 1159--1168
 \OT1/cmr/m/n/12 co-or-di-nated care. In con-clu-sion, the pa-tient tracker app 
 rev-o-lu-tion-izes health-
  []
 
-[49] (./document.bbl [50]
+[52] (./document.bbl [53]
 Underfull \hbox (badness 1762) in paragraph at lines 58--60
 []\OT1/cmr/m/n/12 S. I. O. f. S. Geneva, \OT1/cmr/m/it/12 Risk man-age-ment { G
 uide-lines\OT1/cmr/m/n/12 . ISO
  []
 
-) [51] (./document.aux)
+) [54] (./document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D018BA9A597F4451900134443B023348;8867.
  ) 
 Here is how much of TeX's memory you used:
- 13106 strings out of 478268
- 214836 string characters out of 5846346
+ 13111 strings out of 478268
+ 214889 string characters out of 5846346
  556149 words of memory out of 5000000
  30880 multiletter control sequences out of 15000+600000
  479928 words of font info for 68 fonts, out of 8000000 for 9000
@@ -1429,10 +1739,10 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
 al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on document.pdf (58 pages, 5121789 bytes).
+Output written on document.pdf (61 pages, 5126413 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 718 compressed objects within 8 object streams
- 226 named destinations out of 1000 (max. 500000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 733 compressed objects within 8 object streams
+ 231 named destinations out of 1000 (max. 500000)
  560 words of extra memory for PDF output out of 10000 (max. 10000000)
 

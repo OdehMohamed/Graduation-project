@@ -1,3 +1,4 @@
+import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:patienttracker/Pages/CenterPages/HomePage.dart';
 
@@ -60,6 +61,7 @@ class _SignUpPageState extends State<SignUpPage> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
                     child: TextFormField(
@@ -67,6 +69,9 @@ class _SignUpPageState extends State<SignUpPage> {
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Please enter your first name';
+                        }
+                        if (!RegExp(r'^[a-zA-Z]+$').hasMatch(value)) {
+                          return 'First Name can only \ncontain letters';
                         }
                         return null;
                       },
@@ -84,6 +89,9 @@ class _SignUpPageState extends State<SignUpPage> {
                         if (value!.isEmpty) {
                           return 'Please enter your second name';
                         }
+                        if (!RegExp(r'^[a-zA-Z]+$').hasMatch(value)) {
+                          return 'First Name can only \ncontain letters';
+                        }
                         return null;
                       },
                       onChanged: (value) {
@@ -99,10 +107,20 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
                     child: TextFormField(
                       decoration: textFormFieldDecoration("Third Name"),
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return 'Please enter your third name';
+                        }
+                        if (!RegExp(r'^[a-zA-Z]+$').hasMatch(value)) {
+                          return 'First Name can only \ncontain letters';
+                        }
+                        return null;
+                      },
                       onChanged: (value) {
                         setState(() {
                           _thirdName = value;
@@ -116,6 +134,9 @@ class _SignUpPageState extends State<SignUpPage> {
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Please enter your last name';
+                        }
+                        if (!RegExp(r'^[a-zA-Z]+$').hasMatch(value)) {
+                          return 'First Name can only \ncontain letters';
                         }
                         return null;
                       },
@@ -137,6 +158,9 @@ class _SignUpPageState extends State<SignUpPage> {
                   if (value!.isEmpty) {
                     return 'Please enter your personal ID';
                   }
+                  if (!RegExp(r'^[0-9]+$').hasMatch(value)) {
+                    return 'Please enter only numeric characters';
+                  }
                   return null;
                 },
                 onChanged: (value) {
@@ -153,6 +177,9 @@ class _SignUpPageState extends State<SignUpPage> {
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your phone number';
+                  }
+                  if (!RegExp(r'^[0-9]{10}$').hasMatch(value)) {
+                    return 'Invalid phone number';
                   }
                   return null;
                 },
@@ -171,7 +198,10 @@ class _SignUpPageState extends State<SignUpPage> {
                   if (value!.isEmpty) {
                     return 'Please enter your email';
                   }
-                  // You can add additional email validation logic here
+                  if (!EmailValidator.validate(value)) {
+                    return 'Invalid email address';
+                  }
+
                   return null;
                 },
                 onChanged: (value) {
@@ -212,8 +242,11 @@ class _SignUpPageState extends State<SignUpPage> {
               TextFormField(
                 decoration: textFormFieldDecoration("User Name"),
                 validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter a user name';
+                  if (value == null || value.isEmpty) {
+                    return 'Please enter your Username';
+                  }
+                  if (!RegExp(r'^[a-zA-Z0-9_]+$').hasMatch(value)) {
+                    return 'Username can only contain letters,\nnumbers, and underscores';
                   }
                   return null;
                 },
@@ -233,6 +266,13 @@ class _SignUpPageState extends State<SignUpPage> {
                   if (value!.isEmpty) {
                     return 'Please enter a password';
                   }
+                  if (value.length < 8) {
+                    return 'Password must be at least 8 characters';
+                  }
+                  if (!RegExp(r'^[a-zA-Z0-9_]+$').hasMatch(value)) {
+                    return 'Password can only contain letters,\nnumbers, and underscores';
+                  }
+
                   return null;
                 },
                 onChanged: (value) {
@@ -292,7 +332,28 @@ class PatientSignUpPage extends StatefulWidget {
 }
 
 class _PatientSignUpPageState extends State<PatientSignUpPage> {
-  String? _gender;
+  final _formKey2 = GlobalKey<FormState>();
+  String _gender = '';
+  String _diseaseName = '';
+  String _degreeOfSeverity = '';
+  String _currentHealthState = '';
+  String _oxygen = '';
+  String _bloodPressure = '';
+  String _bloodGlucoseLevel = '';
+  String _age = '';
+  bool _value = true;
+
+  void _submitForm() {
+    if (_formKey2.currentState!.validate()) {
+      // Form is valid, perform form submission logic here
+      if (!_value)
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => PatientSignUpPage2()),
+        );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -301,155 +362,202 @@ class _PatientSignUpPageState extends State<PatientSignUpPage> {
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextFormField(
-              decoration: textFormFieldDecoration('Disease Name'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your disease name';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Degree of Severity'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter the degree of severity';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Current Health State'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your current health state';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Oxygen'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your oxygen level';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Blood Pressure'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your blood pressure';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Blood Glucose Level'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your blood glucose level';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Age'),
-              keyboardType: TextInputType.number,
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your age';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top: 12.0),
-              child: Text(
-                "Gender :",
-                style: TextStyle(
-                    fontSize: 18, decoration: TextDecoration.underline),
+        child: Form(
+          key: _formKey2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              TextFormField(
+                decoration: textFormFieldDecoration('Disease Name'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter your disease name';
+                  }
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _diseaseName = value;
+                  });
+                },
               ),
-            ),
-            RadioListTile(
-              title: Text('Male'),
-              value: 'Male',
-              groupValue: _gender,
-              onChanged: (value) {
-                setState(() {
-                  _gender = value;
-                });
-              },
-            ),
-            RadioListTile(
-              title: Text('Female'),
-              value: 'Female',
-              groupValue: _gender,
-              onChanged: (value) {
-                setState(() {
-                  _gender = value;
-                });
-              },
-            ),
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: Text('Back'),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Degree of Severity'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter the degree of severity';
+                  }
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _degreeOfSeverity = value;
+                  });
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Current Health State'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter your current health state';
+                  }
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _currentHealthState = value;
+                  });
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Oxygen'),
+                validator: (value) {
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _oxygen = value;
+                  });
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Blood Pressure'),
+                validator: (value) {
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _bloodPressure = value;
+                  });
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Blood Glucose Level'),
+                validator: (value) {
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _bloodGlucoseLevel = value;
+                  });
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Age'),
+                keyboardType: TextInputType.number,
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter your age';
+                  }
+                  return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _age = value;
+                  });
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 12.0),
+                child: Text(
+                  "Gender :",
+                  style: TextStyle(
+                      fontSize: 18, decoration: TextDecoration.underline),
                 ),
-                ElevatedButton(
-                  onPressed: () {
-                    // Perform necessary actions on form submission
-                    // Navigate to the next page or perform any other logic
-
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => PatientSignUpPage2()),
-                    );
-                  },
-                  child: Text('Next'),
+              ),
+              RadioListTile(
+                title: Text('Male'),
+                value: 'Male',
+                groupValue: _gender,
+                onChanged: (value) {
+                  setState(() {
+                    _gender = value!;
+                    _value = false;
+                  });
+                },
+              ),
+              RadioListTile(
+                title: Text('Female'),
+                value: 'Female',
+                groupValue: _gender,
+                onChanged: (value) {
+                  setState(() {
+                    _gender = value!;
+                    _value = false;
+                  });
+                },
+              ),
+              Visibility(
+                visible: _value,
+                child: Text(
+                  "You must select your gender",
+                  style: TextStyle(color: Colors.red),
                 ),
-              ],
-            ),
-          ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Back'),
+                  ),
+                  ElevatedButton(
+                    onPressed: _submitForm,
+                    child: Text('Next'),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-class PatientSignUpPage2 extends StatelessWidget {
+class PatientSignUpPage2 extends StatefulWidget {
+  @override
+  State<PatientSignUpPage2> createState() => _PatientSignUpPage2State();
+}
+
+class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
+  final _formKey2 = GlobalKey<FormState>();
+
+  void _submitForm() {
+    if (_formKey2.currentState!.validate()) {
+      // Form is valid, perform form submission logic here
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CenterHome()),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -458,65 +566,57 @@ class PatientSignUpPage2 extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextFormField(
-              decoration: textFormFieldDecoration('FamilyMember(UserName)'),
-              keyboardType: TextInputType.number,
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your FamilyMember(UserName)';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Doctor(UserName)'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your Doctor(UserName)';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('HealthcareCenter (ID)'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your HealthcareCenter (ID)';
-                }
-                return null;
-              },
-            ),
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: Text('Back'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => CenterHome()),
-                    );
-                  },
-                  child: Text('Finish'),
-                ),
-              ],
-            ),
-          ],
+        child: Form(
+          key: _formKey2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              TextFormField(
+                decoration: textFormFieldDecoration('FamilyMember(UserName)'),
+                keyboardType: TextInputType.number,
+                validator: (value) {
+                  return null;
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Doctor(UserName)'),
+                validator: (value) {
+                  return null;
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('HealthcareCenter (ID)'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter your HealthcareCenter (ID)';
+                  }
+                  return null;
+                },
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Back'),
+                  ),
+                  ElevatedButton(
+                    onPressed: _submitForm,
+                    child: Text('Finish'),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
