@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  31 MAY 2023 01:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  31 MAY 2023 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1017,37 +1017,42 @@ Overfull \hbox (6.34398pt too wide) in paragraph at lines 387--388
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Overfull \hbox (6.34398pt too wide) in paragraph at lines 393--394
+[]|[][]\OT1/cmr/m/n/12 whatsapp[][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
 []|\OT1/cmr/bx/n/12 Number
  []
 
 
-Overfull \hbox (2.12363pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.12363pt too wide) in paragraph at lines 409--409
 []|\OT1/cmr/bx/n/12 Total
  []
 
 
-Overfull \hbox (0.92058pt too wide) in paragraph at lines 402--402
+Overfull \hbox (0.92058pt too wide) in paragraph at lines 412--412
 []|\OT1/cmr/m/n/12 2277\TS1/cmr/m/n/12 $| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 []|\OT1/cmr/m/n/12 Smart-phone
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 404--404
+Underfull \hbox (badness 2409) in paragraph at lines 414--414
 \OT1/cmr/m/n/12 (Medium spec-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []|\OT1/cmr/m/n/12 Smart-watch
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 406--406
+Underfull \hbox (badness 2409) in paragraph at lines 416--416
 \OT1/cmr/m/n/12 (High spec-i-fi-ca-
  []
 
@@ -1055,231 +1060,206 @@ Underfull \hbox (badness 2409) in paragraph at lines 406--406
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [17] [18]
-Underfull \hbox (badness 3375) in paragraph at lines 446--446
+Underfull \hbox (badness 3375) in paragraph at lines 456--456
 []|\OT1/cmr/m/n/12 Software en-gi-neer
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 446--446
+Underfull \hbox (badness 1960) in paragraph at lines 456--456
 \OT1/cmr/m/n/12 and in-ter-face de-
  []
 
 [19]
-Overfull \hbox (8.86502pt too wide) in paragraph at lines 465--486
+Overfull \hbox (8.86502pt too wide) in paragraph at lines 475--496
  [][] 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 1| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 2| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 3| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 4| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 5| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 6| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 7| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 8| 
  []
 
 
-Overfull \hbox (2.48227pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.48227pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 9| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--496
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 10| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--496
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 11| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--496
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 12| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--496
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 13| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--496
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 14| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--496
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 15| 
  []
 
 
-Overfull \hbox (3.54137pt too wide) in paragraph at lines 496--497
+Overfull \hbox (3.54137pt too wide) in paragraph at lines 506--507
 []|\OT1/cmr/bx/n/12 16| 
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 498--498
+Underfull \hbox (badness 1552) in paragraph at lines 508--508
 []|\OT1/cmr/bx/n/12 Searching for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
 []|\OT1/cmr/bx/n/12 Data col-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
 \OT1/cmr/bx/n/12 lec-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
 \OT1/cmr/bx/n/12 search for
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 506--506
+Underfull \hbox (badness 1400) in paragraph at lines 516--516
 []|\OT1/cmr/bx/n/12 Design spec-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 \OT1/cmr/bx/n/12 re-quire-ments
  []
 
 
-Overfull \hbox (7.20308pt too wide) in paragraph at lines 510--510
+Overfull \hbox (7.20308pt too wide) in paragraph at lines 520--520
 []|\OT1/cmr/bx/n/12 Documentation| 
  []
 
 
-Overfull \hbox (12.68626pt too wide) in paragraph at lines 492--513
+Overfull \hbox (12.68626pt too wide) in paragraph at lines 502--523
  [][] 
  []
 
 [20]
-Overfull \hbox (22.68182pt too wide) in paragraph at lines 520--521
+Overfull \hbox (22.68182pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/12 can help im-prove com-mu-ni-ca-tion be-tween pa-tients and heal
 th-care providers,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--533
+Underfull \hbox (badness 10000) in paragraph at lines 539--543
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--550
+Underfull \hbox (badness 10000) in paragraph at lines 555--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--550
+Underfull \hbox (badness 10000) in paragraph at lines 555--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--550
+Underfull \hbox (badness 10000) in paragraph at lines 555--560
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 557--560
+Underfull \hbox (badness 10000) in paragraph at lines 567--570
 
  []
 
 [23] [24] [25] [26] [27]
-Overfull \hbox (24.13565pt too wide) in paragraph at lines 635--635
+Overfull \hbox (24.13565pt too wide) in paragraph at lines 645--645
 |[]\OT1/cmr/bx/n/17.28 SYSTEM FUNC-TIONAL RE-QUIRE-MENTS
  []
 
-<image//use-diagram.png, id=606, 655.44875pt x 473.77pt>
+<image//use-diagram.png, id=611, 655.44875pt x 473.77pt>
 File: image//use-diagram.png Graphic file (type png)
 <use image//use-diagram.png>
-Package pdftex.def Info: image//use-diagram.png  used on input line 645.
+Package pdftex.def Info: image//use-diagram.png  used on input line 655.
 (pdftex.def)             Requested size: 312.00119pt x 225.5202pt.
-<image//context-diagram.jpg, id=607, 1005.7575pt x 613.54219pt>
+<image//context-diagram.jpg, id=612, 1005.7575pt x 613.54219pt>
 File: image//context-diagram.jpg Graphic file (type jpg)
 <use image//context-diagram.jpg>
-Package pdftex.def Info: image//context-diagram.jpg  used on input line 651.
+Package pdftex.def Info: image//context-diagram.jpg  used on input line 661.
 (pdftex.def)             Requested size: 390.0pt x 237.9043pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28 <./image//use-diagram.png>] [29 <./image//context-diagram.jpg>]
-Overfull \hbox (13.78305pt too wide) in paragraph at lines 669--683
+Overfull \hbox (13.78305pt too wide) in paragraph at lines 679--693
  [][] 
  []
 
 
-Overfull \hbox (16.48445pt too wide) in paragraph at lines 689--703
+Overfull \hbox (16.48445pt too wide) in paragraph at lines 699--713
  [][] 
  []
 
 [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 723--724
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 727--728
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 731--732
+Underfull \hbox (badness 10000) in paragraph at lines 730--732
 
  []
 
@@ -1293,107 +1273,132 @@ Underfull \hbox (badness 10000) in paragraph at lines 735--736
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 741--742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+
+ []
+
 [33] [34]
-<image//ClassDiagram.png, id=642, 579.16376pt x 524.96124pt>
+<image//ClassDiagram.png, id=647, 579.16376pt x 524.96124pt>
 File: image//ClassDiagram.png Graphic file (type png)
 <use image//ClassDiagram.png>
-Package pdftex.def Info: image//ClassDiagram.png  used on input line 787.
+Package pdftex.def Info: image//ClassDiagram.png  used on input line 797.
 (pdftex.def)             Requested size: 390.0pt x 353.50049pt.
  [35 <./image//ClassDiagram.png>]
-<image//sequanceDiagram.png, id=648, 617.30624pt x 522.95375pt>
+<image//sequanceDiagram.png, id=653, 617.30624pt x 522.95375pt>
 File: image//sequanceDiagram.png Graphic file (type png)
 <use image//sequanceDiagram.png>
-Package pdftex.def Info: image//sequanceDiagram.png  used on input line 797.
+Package pdftex.def Info: image//sequanceDiagram.png  used on input line 807.
 (pdftex.def)             Requested size: 390.0pt x 330.39621pt.
  [36 <./image//sequanceDiagram.png>]
-<image//ERD.png, id=655, 640.3925pt x 542.025pt>
+<image//ERD.png, id=660, 640.3925pt x 542.025pt>
 File: image//ERD.png Graphic file (type png)
 <use image//ERD.png>
-Package pdftex.def Info: image//ERD.png  used on input line 807.
+Package pdftex.def Info: image//ERD.png  used on input line 817.
 (pdftex.def)             Requested size: 390.0pt x 330.09717pt.
 
 [37 <./image//ERD.png>]
-<image//Activity.png, id=661, 701.62125pt x 495.65175pt>
+<image//Activity.png, id=666, 701.62125pt x 495.65175pt>
 File: image//Activity.png Graphic file (type png)
 <use image//Activity.png>
-Package pdftex.def Info: image//Activity.png  used on input line 830.
+Package pdftex.def Info: image//Activity.png  used on input line 840.
 (pdftex.def)             Requested size: 312.00119pt x 220.41684pt.
  [38 <./image//Activity.png>] [39] [40]
-<image//launchIcon.jpg, id=676, 274.02374pt x 317.185pt>
+<image//launchIcon.jpg, id=681, 274.02374pt x 317.185pt>
 File: image//launchIcon.jpg Graphic file (type jpg)
 <use image//launchIcon.jpg>
-Package pdftex.def Info: image//launchIcon.jpg  used on input line 898.
+Package pdftex.def Info: image//launchIcon.jpg  used on input line 908.
 (pdftex.def)             Requested size: 93.59917pt x 108.3448pt.
-<image//launchScreen.png, id=677, 1246.6575pt x 2698.08pt>
+<image//launchScreen.png, id=682, 1246.6575pt x 2698.08pt>
 File: image//launchScreen.png Graphic file (type png)
 <use image//launchScreen.png>
-Package pdftex.def Info: image//launchScreen.png  used on input line 903.
+Package pdftex.def Info: image//launchScreen.png  used on input line 913.
 (pdftex.def)             Requested size: 74.87819pt x 162.0425pt.
-<image//SignIn.png, id=678, 1246.6575pt x 2698.08pt>
+<image//SignIn.png, id=683, 1246.6575pt x 2698.08pt>
 File: image//SignIn.png Graphic file (type png)
 <use image//SignIn.png>
-Package pdftex.def Info: image//SignIn.png  used on input line 911.
+Package pdftex.def Info: image//SignIn.png  used on input line 921.
 (pdftex.def)             Requested size: 97.5pt x 210.99283pt.
  [41 <./image//launchIcon.jpg> <./image//launchScreen.png> <./image//SignIn.png
 >]
-<image//healthCareCenterHome.png, id=683, 1246.6575pt x 2698.08pt>
+<image//healthCareCenterHome.png, id=688, 1246.6575pt x 2698.08pt>
 File: image//healthCareCenterHome.png Graphic file (type png)
 <use image//healthCareCenterHome.png>
-Package pdftex.def Info: image//healthCareCenterHome.png  used on input line 92
+Package pdftex.def Info: image//healthCareCenterHome.png  used on input line 93
 0.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//DrawerHealthCare.png, id=684, 1246.6575pt x 2698.08pt>
+<image//DrawerHealthCare.png, id=689, 1246.6575pt x 2698.08pt>
 File: image//DrawerHealthCare.png Graphic file (type png)
 <use image//DrawerHealthCare.png>
-Package pdftex.def Info: image//DrawerHealthCare.png  used on input line 925.
+Package pdftex.def Info: image//DrawerHealthCare.png  used on input line 935.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpUser.png, id=685, 1246.6575pt x 2698.08pt>
+<image//SignUpUser.png, id=690, 1246.6575pt x 2698.08pt>
 File: image//SignUpUser.png Graphic file (type png)
 <use image//SignUpUser.png>
-Package pdftex.def Info: image//SignUpUser.png  used on input line 933.
+Package pdftex.def Info: image//SignUpUser.png  used on input line 943.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//signUpPatient1.png, id=686, 1246.6575pt x 2698.08pt>
+<image//signUpPatient1.png, id=691, 1246.6575pt x 2698.08pt>
 File: image//signUpPatient1.png Graphic file (type png)
 <use image//signUpPatient1.png>
-Package pdftex.def Info: image//signUpPatient1.png  used on input line 938.
+Package pdftex.def Info: image//signUpPatient1.png  used on input line 948.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
  [42 <./image//healthCareCenterHome.png> <./image//DrawerHealthCare.png> <./ima
 ge//SignUpUser.png> <./image//signUpPatient1.png>]
-<image//SignUpPatient2.png, id=692, 1246.6575pt x 2698.08pt>
+<image//SignUpPatient2.png, id=697, 1246.6575pt x 2698.08pt>
 File: image//SignUpPatient2.png Graphic file (type png)
 <use image//SignUpPatient2.png>
-Package pdftex.def Info: image//SignUpPatient2.png  used on input line 946.
+Package pdftex.def Info: image//SignUpPatient2.png  used on input line 956.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpFamilyMember.png, id=693, 1246.6575pt x 2698.08pt>
+<image//SignUpFamilyMember.png, id=698, 1246.6575pt x 2698.08pt>
 File: image//SignUpFamilyMember.png Graphic file (type png)
 <use image//SignUpFamilyMember.png>
-Package pdftex.def Info: image//SignUpFamilyMember.png  used on input line 951.
+Package pdftex.def Info: image//SignUpFamilyMember.png  used on input line 961.
 
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//SignUpDoctor.png, id=694, 1246.6575pt x 2698.08pt>
+<image//SignUpDoctor.png, id=699, 1246.6575pt x 2698.08pt>
 File: image//SignUpDoctor.png Graphic file (type png)
 <use image//SignUpDoctor.png>
-Package pdftex.def Info: image//SignUpDoctor.png  used on input line 957.
+Package pdftex.def Info: image//SignUpDoctor.png  used on input line 967.
 (pdftex.def)             Requested size: 97.5pt x 210.99283pt.
  [43 <./image//SignUpPatient2.png> <./image//SignUpFamilyMember.png> <./image//
 SignUpDoctor.png>]
-<image//PatientHome.png, id=699, 1246.6575pt x 2698.08pt>
+<image//PatientHome.png, id=704, 1246.6575pt x 2698.08pt>
 File: image//PatientHome.png Graphic file (type png)
 <use image//PatientHome.png>
-Package pdftex.def Info: image//PatientHome.png  used on input line 966.
+Package pdftex.def Info: image//PatientHome.png  used on input line 976.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
-<image//PatientDrawer.png, id=700, 1246.6575pt x 2698.08pt>
+<image//PatientDrawer.png, id=705, 1246.6575pt x 2698.08pt>
 File: image//PatientDrawer.png Graphic file (type png)
 <use image//PatientDrawer.png>
-Package pdftex.def Info: image//PatientDrawer.png  used on input line 971.
+Package pdftex.def Info: image//PatientDrawer.png  used on input line 981.
 (pdftex.def)             Requested size: 93.59917pt x 202.55312pt.
  [44 <./image//PatientHome.png> <./image//PatientDrawer.png>] [45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 
  []
 
 [47] [48]
-Overfull \hbox (0.30937pt too wide) in paragraph at lines 1083--1092
+Overfull \hbox (0.30937pt too wide) in paragraph at lines 1093--1102
 \OT1/cmr/m/n/12 co-or-di-nated care. In con-clu-sion, the pa-tient tracker app 
 rev-o-lu-tion-izes health-
  []
@@ -1411,7 +1416,7 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 Here is how much of TeX's memory you used:
  13106 strings out of 478268
  214836 string characters out of 5846346
- 555149 words of memory out of 5000000
+ 556149 words of memory out of 5000000
  30880 multiletter control sequences out of 15000+600000
  479928 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1424,10 +1429,10 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
 al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on document.pdf (58 pages, 5121198 bytes).
+Output written on document.pdf (58 pages, 5121789 bytes).
 PDF statistics:
- 821 PDF objects out of 1000 (max. 8388607)
- 713 compressed objects within 8 object streams
+ 826 PDF objects out of 1000 (max. 8388607)
+ 718 compressed objects within 8 object streams
  226 named destinations out of 1000 (max. 500000)
  560 words of extra memory for PDF output out of 10000 (max. 10000000)
 
