@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:patienttracker/Forms/SignUpPage.dart';
+import 'package:patienttracker/Pages/CenterPages/AddDeleteMemberFromGroup.dart';
+import 'package:patienttracker/Pages/CenterPages/CreateGroup.dart';
 import 'package:patienttracker/Pages/GeneralPages/MainDrawer.dart';
-import 'package:patienttracker/Widget/SignOutDialog.dart';
+import 'package:patienttracker/Widget/Dialogs/SignOutDialog.dart';
 import 'package:patienttracker/globalVar/globalvar.dart';
 
 import '../../Widget/ElevatedButtonHome.dart';
 import '../../Widget/FloatingActionButton.dart';
-import 'Account(Disable/Enable).dart';
+import 'Account(Disable,Enable).dart';
 
 class CenterHome extends StatelessWidget {
   const CenterHome({Key? key}) : super(key: key);
@@ -68,6 +70,10 @@ class CenterHome extends StatelessWidget {
               title: ElevatedButton(
                 onPressed: () {
                   // Add your action for the "Create Group" button here
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => CreateGroup()),
+                  );
                 },
                 style: ElevatedButtonHome(),
                 child: Row(
@@ -121,6 +127,12 @@ class CenterHome extends StatelessWidget {
               title: ElevatedButton(
                 onPressed: () {
                   // Add your action for the "Create Group" button here
+
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => AddDeleteMemberGroup()),
+                  );
                 },
                 style: ElevatedButtonHome(),
                 child: Row(

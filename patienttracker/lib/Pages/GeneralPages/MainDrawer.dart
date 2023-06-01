@@ -4,7 +4,7 @@ import 'package:patienttracker/Pages/GeneralPages/AboutUs.dart';
 import 'package:patienttracker/Pages/GeneralPages/ContactUs.dart';
 import 'package:patienttracker/Pages/GeneralPages/MyInfo.dart';
 import 'package:patienttracker/Pages/PatientPages/PatientHome.dart';
-import 'package:patienttracker/Widget/SignOutDialog.dart';
+import 'package:patienttracker/Widget/Dialogs/SignOutDialog.dart';
 import 'package:patienttracker/globalVar/globalvar.dart';
 
 class MainDrawer extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../Widget/SignOutDialog.dart';
+import '../../Widget/Dialogs/SignOutDialog.dart';
 import 'MainDrawer.dart';
 
 class MyInfo extends StatefulWidget {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:patienttracker/globalVar/globalvar.dart';
 import '../Pages/CenterPages/HomePage.dart';
 import '../Pages/PatientPages/PatientHome.dart';
-import '../Widget/ErrorLogin.dart';
+import '../Widget/Dialogs/ErrorLogin.dart';
 
 class LoginScreen extends StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'SignOutDialog.dart';
+import 'Dialogs/SignOutDialog.dart';
 
 floatButton(context) {
   return FloatingActionButton(

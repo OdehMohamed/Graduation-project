@@ -1,9 +1,14 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:patienttracker/Pages/CenterPages/HomePage.dart';
-
+import 'package:patienttracker/Widget/Dialogs/DialogEnableDisableAccount.dart';
 import '../Widget/textFormFieldDecoration.dart';
 
+///////////////////////////////////////////////////////////
+///   SignUp Page
+///////////////////////////////////////////////////////////
+///
+///
 class SignUpPage extends StatefulWidget {
   @override
   _SignUpPageState createState() => _SignUpPageState();
@@ -65,7 +70,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 children: [
                   Expanded(
                     child: TextFormField(
-                      decoration: textFormFieldDecoration("First Name"),
+                      decoration: textFormFieldDecoration("First Name*"),
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Please enter your first name';
@@ -84,7 +89,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   ),
                   Expanded(
                     child: TextFormField(
-                      decoration: textFormFieldDecoration("Second Name"),
+                      decoration: textFormFieldDecoration("Second Name*"),
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Please enter your second name';
@@ -111,7 +116,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 children: [
                   Expanded(
                     child: TextFormField(
-                      decoration: textFormFieldDecoration("Third Name"),
+                      decoration: textFormFieldDecoration("Third Name*"),
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Please enter your third name';
@@ -130,7 +135,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   ),
                   Expanded(
                     child: TextFormField(
-                      decoration: textFormFieldDecoration("Last Name"),
+                      decoration: textFormFieldDecoration("Last Name*"),
                       validator: (value) {
                         if (value!.isEmpty) {
                           return 'Please enter your last name';
@@ -153,7 +158,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration("Personal ID"),
+                decoration: textFormFieldDecoration("Personal ID*"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your personal ID';
@@ -173,7 +178,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration("Phone"),
+                decoration: textFormFieldDecoration("Phone*"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your phone number';
@@ -193,7 +198,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration("Email"),
+                decoration: textFormFieldDecoration("Email*"),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your email';
@@ -240,7 +245,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration("User Name"),
+                decoration: textFormFieldDecoration("User Name*"),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'Please enter your Username';
@@ -260,7 +265,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration("Password"),
+                decoration: textFormFieldDecoration("Password*"),
                 obscureText: true,
                 validator: (value) {
                   if (value!.isEmpty) {
@@ -285,7 +290,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration("Confirm Password"),
+                decoration: textFormFieldDecoration("Confirm Password*"),
                 obscureText: true,
                 validator: (value) {
                   if (value!.isEmpty) {
@@ -325,6 +330,11 @@ class _SignUpPageState extends State<SignUpPage> {
     );
   }
 }
+
+///////////////////////////////////////////////////////////
+///   Patient SignUp Page
+///////////////////////////////////////////////////////////
+///
 
 class PatientSignUpPage extends StatefulWidget {
   @override
@@ -368,7 +378,7 @@ class _PatientSignUpPageState extends State<PatientSignUpPage> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               TextFormField(
-                decoration: textFormFieldDecoration('Disease Name'),
+                decoration: textFormFieldDecoration('Disease Name*'),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your disease name';
@@ -385,7 +395,7 @@ class _PatientSignUpPageState extends State<PatientSignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration('Degree of Severity'),
+                decoration: textFormFieldDecoration('Degree of Severity*'),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter the degree of severity';
@@ -402,7 +412,7 @@ class _PatientSignUpPageState extends State<PatientSignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration('Current Health State'),
+                decoration: textFormFieldDecoration('Current Health State*'),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your current health state';
@@ -461,7 +471,7 @@ class _PatientSignUpPageState extends State<PatientSignUpPage> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration('Age'),
+                decoration: textFormFieldDecoration('Age*'),
                 keyboardType: TextInputType.number,
                 validator: (value) {
                   if (value!.isEmpty) {
@@ -539,6 +549,11 @@ class _PatientSignUpPageState extends State<PatientSignUpPage> {
   }
 }
 
+///////////////////////////////////////////////////////////
+///   Patient SignUp Page2
+///////////////////////////////////////////////////////////
+///
+
 class PatientSignUpPage2 extends StatefulWidget {
   @override
   State<PatientSignUpPage2> createState() => _PatientSignUpPage2State();
@@ -555,6 +570,7 @@ class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
         context,
         MaterialPageRoute(builder: (context) => CenterHome()),
       );
+      dialogCreateAccount(context);
     }
   }
 
@@ -591,7 +607,7 @@ class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
                 height: 15,
               ),
               TextFormField(
-                decoration: textFormFieldDecoration('HealthcareCenter (ID)'),
+                decoration: textFormFieldDecoration('HealthcareCenter (ID)*'),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Please enter your HealthcareCenter (ID)';
@@ -623,7 +639,31 @@ class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
   }
 }
 
-class FamilyMemberSignUpPage extends StatelessWidget {
+///////////////////////////////////////////////////////////
+///   FamilyMember SignUp Page
+///////////////////////////////////////////////////////////
+///
+
+class FamilyMemberSignUpPage extends StatefulWidget {
+  @override
+  State<FamilyMemberSignUpPage> createState() => _FamilyMemberSignUpPageState();
+}
+
+class _FamilyMemberSignUpPageState extends State<FamilyMemberSignUpPage> {
+  final _formKey2 = GlobalKey<FormState>();
+
+  void _submitForm() {
+    if (_formKey2.currentState!.validate()) {
+      // Form is valid, perform form submission logic here
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CenterHome()),
+      );
+      dialogCreateAccount(context);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -632,74 +672,86 @@ class FamilyMemberSignUpPage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextFormField(
-              decoration: textFormFieldDecoration('Relationship to Patient'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your relationship to the patient';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Health Care Center (ID)'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter the health care center ID';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Doctor (User Name)'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter the doctor user name';
-                }
-                return null;
-              },
-            ),
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: Text('Back'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    // Perform necessary actions on form submission
-                    // Navigate to the next page or perform any other logic
-
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => CenterHome()),
-                    );
-                  },
-                  child: Text('Finish'),
-                ),
-              ],
-            ),
-          ],
+        child: Form(
+          key: _formKey2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              TextFormField(
+                decoration: textFormFieldDecoration('Relationship to Patient'),
+                validator: (value) {
+                  return null;
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Health Care Center (ID)*'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter the health care center ID';
+                  }
+                  return null;
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Doctor (User Name)'),
+                validator: (value) {
+                  return null;
+                },
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Back'),
+                  ),
+                  ElevatedButton(
+                    onPressed: _submitForm,
+                    child: Text('Finish'),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-class DoctorSignUpPage extends StatelessWidget {
+///////////////////////////////////////////////////////////
+///   Doctor SignUp Page
+///////////////////////////////////////////////////////////
+///
+class DoctorSignUpPage extends StatefulWidget {
+  @override
+  State<DoctorSignUpPage> createState() => _DoctorSignUpPageState();
+}
+
+class _DoctorSignUpPageState extends State<DoctorSignUpPage> {
+  final _formKey2 = GlobalKey<FormState>();
+
+  void _submitForm() {
+    if (_formKey2.currentState!.validate()) {
+      // Form is valid, perform form submission logic here
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CenterHome()),
+      );
+      dialogCreateAccount(context);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -708,55 +760,50 @@ class DoctorSignUpPage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextFormField(
-              decoration: textFormFieldDecoration('Medical Specialty'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter your medical specialty';
-                }
-                return null;
-              },
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            TextFormField(
-              decoration: textFormFieldDecoration('Health Care Center (ID)'),
-              validator: (value) {
-                if (value!.isEmpty) {
-                  return 'Please enter the health care center ID';
-                }
-                return null;
-              },
-            ),
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: Text('Back'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    // Perform necessary actions on form submission
-                    // Navigate to the next page or perform any other logic
-
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => CenterHome()),
-                    );
-                  },
-                  child: Text('Finish'),
-                ),
-              ],
-            ),
-          ],
+        child: Form(
+          key: _formKey2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              TextFormField(
+                decoration: textFormFieldDecoration('Medical Specialty*'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter your medical specialty';
+                  }
+                  return null;
+                },
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              TextFormField(
+                decoration: textFormFieldDecoration('Health Care Center (ID)*'),
+                validator: (value) {
+                  if (value!.isEmpty) {
+                    return 'Please enter the health care center ID';
+                  }
+                  return null;
+                },
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Back'),
+                  ),
+                  ElevatedButton(
+                    onPressed: _submitForm,
+                    child: Text('Finish'),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );

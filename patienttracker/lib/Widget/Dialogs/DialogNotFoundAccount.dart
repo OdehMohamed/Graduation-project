@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-ErrorLogin(context) {
+
+DialogNotFoundAccount(context) {
   return showDialog<String>(
     context: context,
     builder: (BuildContext context) => AlertDialog(
       title: const Text(
-        'Login failed',
+        'Not found account',
         style: TextStyle(color: Colors.red),
       ),
-      content: const Text(
-          'Please make sure that you have entered your username and password correctly.'),
+      content:
+          const Text('Please make sure that you have entered data correctly.'),
       actions: <Widget>[
         TextButton(
           onPressed: () => Navigator.pop(context, 'Ok'),
