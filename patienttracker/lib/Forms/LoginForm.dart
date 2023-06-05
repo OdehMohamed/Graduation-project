@@ -148,7 +148,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             builder: (context) => CenterHome(),
                           ),
                         );
-                      } else if (_email == 'patient' &&
+                      } 
+                      else if (_email == 'patient' &&
                           _password == 'password') {
                         userName = 'patient';
                         typeOfUser = 'patient';
@@ -158,7 +159,30 @@ class _LoginScreenState extends State<LoginScreen> {
                             builder: (context) => PatientHome(),
                           ),
                         );
-                      } else {
+                      } 
+                      else if (_email == 'doctor' &&
+                          _password == 'password') {
+                        userName = 'doctor';
+                        typeOfUser = 'doctor';
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => PatientHome(),
+                          ),
+                        );
+                      } 
+                      else if (_email == 'familymember' &&
+                          _password == 'password') {
+                        userName = 'familymember';
+                        typeOfUser = 'familymember';
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => PatientHome(),
+                          ),
+                        );
+                      } 
+                      else {
                         ErrorLogin(context);
                       }
                     }

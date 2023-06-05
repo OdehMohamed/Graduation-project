@@ -2,10 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:patienttracker/Pages/CenterPages/HomePage.dart';
 import 'package:patienttracker/Pages/GeneralPages/AboutUs.dart';
 import 'package:patienttracker/Pages/GeneralPages/ContactUs.dart';
-import 'package:patienttracker/Pages/GeneralPages/MyInfo.dart';
+import 'package:patienttracker/Pages/CenterPages/MyInfoAdmin.dart';
+import 'package:patienttracker/Pages/GeneralPages/Doctors.dart';
+import 'package:patienttracker/Pages/GeneralPages/Groups.dart';
+import 'package:patienttracker/Pages/GeneralPages/MyInfoUser.dart';
 import 'package:patienttracker/Pages/PatientPages/PatientHome.dart';
 import 'package:patienttracker/Widget/Dialogs/SignOutDialog.dart';
 import 'package:patienttracker/globalVar/globalvar.dart';
+
+import 'FamilyMembers.dart';
 
 class MainDrawer extends StatelessWidget {
   final String opt1, opt2, opt3, opt4;
@@ -62,10 +67,16 @@ class MainDrawer extends StatelessWidget {
               style: TextStyle(fontSize: 20),
             ),
             onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => MyInfo()),
-              );
+              if (typeOfUser == "center")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyInfo()),
+                );
+              else if (typeOfUser == "patient")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyInfoUser()),
+                );
             },
           ),
           Divider(
@@ -77,7 +88,18 @@ class MainDrawer extends StatelessWidget {
               opt1,
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              if (typeOfUser == "center")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Groups()),
+                );
+              else if (typeOfUser == "patient")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyInfoUser()),
+                );
+            },
           ),
           Divider(
             height: 1,
@@ -88,7 +110,18 @@ class MainDrawer extends StatelessWidget {
               opt2,
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              if (typeOfUser == "center")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Doctors()),
+                );
+              else if (typeOfUser == "patient")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyInfoUser()),
+                );
+            },
           ),
           Divider(
             height: 1,
@@ -99,7 +132,18 @@ class MainDrawer extends StatelessWidget {
               opt3,
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              if (typeOfUser == "center")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => FamilyMembers()),
+                );
+              else if (typeOfUser == "patient")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyInfoUser()),
+                );
+            },
           ),
           Divider(
             height: 1,
@@ -110,7 +154,18 @@ class MainDrawer extends StatelessWidget {
               opt4,
               style: TextStyle(fontSize: 20),
             ),
-            onTap: () {},
+            onTap: () {
+              if (typeOfUser == "center")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => FamilyMembers()),
+                );
+              else if (typeOfUser == "patient")
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyInfoUser()),
+                );
+            },
           ),
           Divider(
             height: 1,

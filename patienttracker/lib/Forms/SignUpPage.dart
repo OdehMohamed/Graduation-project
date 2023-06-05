@@ -560,6 +560,9 @@ class PatientSignUpPage2 extends StatefulWidget {
 }
 
 class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
+  String _familyMemberUserName = '';
+  String _doctorUserName = '';
+  String _healthCareCenterID = '';
   final _formKey2 = GlobalKey<FormState>();
 
   void _submitForm() {
@@ -593,6 +596,11 @@ class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
                 validator: (value) {
                   return null;
                 },
+                onChanged: (value) {
+                  setState(() {
+                    _familyMemberUserName = value;
+                  });
+                },
               ),
               SizedBox(
                 height: 15,
@@ -602,17 +610,10 @@ class _PatientSignUpPage2State extends State<PatientSignUpPage2> {
                 validator: (value) {
                   return null;
                 },
-              ),
-              SizedBox(
-                height: 15,
-              ),
-              TextFormField(
-                decoration: textFormFieldDecoration('HealthcareCenter (ID)*'),
-                validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter your HealthcareCenter (ID)';
-                  }
-                  return null;
+                onChanged: (value) {
+                  setState(() {
+                    _doctorUserName = value;
+                  });
                 },
               ),
               SizedBox(height: 20),
@@ -650,6 +651,9 @@ class FamilyMemberSignUpPage extends StatefulWidget {
 }
 
 class _FamilyMemberSignUpPageState extends State<FamilyMemberSignUpPage> {
+  String _relationshipToPatient = '';
+  String _doctorUserName = '';
+  String _healthCareCenterID = '';
   final _formKey2 = GlobalKey<FormState>();
 
   void _submitForm() {
@@ -682,17 +686,10 @@ class _FamilyMemberSignUpPageState extends State<FamilyMemberSignUpPage> {
                 validator: (value) {
                   return null;
                 },
-              ),
-              SizedBox(
-                height: 15,
-              ),
-              TextFormField(
-                decoration: textFormFieldDecoration('Health Care Center (ID)*'),
-                validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter the health care center ID';
-                  }
-                  return null;
+                onChanged: (value) {
+                  setState(() {
+                    _relationshipToPatient = value;
+                  });
                 },
               ),
               SizedBox(
@@ -702,6 +699,11 @@ class _FamilyMemberSignUpPageState extends State<FamilyMemberSignUpPage> {
                 decoration: textFormFieldDecoration('Doctor (User Name)'),
                 validator: (value) {
                   return null;
+                },
+                onChanged: (value) {
+                  setState(() {
+                    _doctorUserName = value;
+                  });
                 },
               ),
               SizedBox(height: 20),
@@ -738,6 +740,8 @@ class DoctorSignUpPage extends StatefulWidget {
 }
 
 class _DoctorSignUpPageState extends State<DoctorSignUpPage> {
+  String _medicalSpecialty = '';
+  String _healthCareCenterID = '';
   final _formKey2 = GlobalKey<FormState>();
 
   void _submitForm() {
@@ -773,17 +777,10 @@ class _DoctorSignUpPageState extends State<DoctorSignUpPage> {
                   }
                   return null;
                 },
-              ),
-              SizedBox(
-                height: 15,
-              ),
-              TextFormField(
-                decoration: textFormFieldDecoration('Health Care Center (ID)*'),
-                validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter the health care center ID';
-                  }
-                  return null;
+                onChanged: (value) {
+                  setState(() {
+                    _medicalSpecialty = value;
+                  });
                 },
               ),
               SizedBox(height: 20),

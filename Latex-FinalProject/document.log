@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  31 MAY 2023 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  3 JUN 2023 08:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,15 +1240,15 @@ File: image//use-diagram.png Graphic file (type png)
 <use image//use-diagram.png>
 Package pdftex.def Info: image//use-diagram.png  used on input line 655.
 (pdftex.def)             Requested size: 312.00119pt x 225.5202pt.
-<image//context-diagram.jpg, id=616, 1005.7575pt x 613.54219pt>
-File: image//context-diagram.jpg Graphic file (type jpg)
-<use image//context-diagram.jpg>
-Package pdftex.def Info: image//context-diagram.jpg  used on input line 661.
-(pdftex.def)             Requested size: 390.0pt x 237.9043pt.
+<image//context-diagram.png, id=616, 803.0pt x 548.0475pt>
+File: image//context-diagram.png Graphic file (type png)
+<use image//context-diagram.png>
+Package pdftex.def Info: image//context-diagram.png  used on input line 661.
+(pdftex.def)             Requested size: 390.0pt x 266.17903pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28 <./image//use-diagram.png>] [29 <./image//context-diagram.jpg>]
+[28 <./image//use-diagram.png>] [29 <./image//context-diagram.png>]
 Overfull \hbox (13.78305pt too wide) in paragraph at lines 679--693
  [][] 
  []
@@ -1299,31 +1299,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 745--746
  []
 
 [33] [34]
-<image//ClassDiagram.png, id=651, 579.16376pt x 524.96124pt>
+<image//ClassDiagram.png, id=652, 579.16376pt x 524.96124pt>
 File: image//ClassDiagram.png Graphic file (type png)
 <use image//ClassDiagram.png>
 Package pdftex.def Info: image//ClassDiagram.png  used on input line 797.
 (pdftex.def)             Requested size: 390.0pt x 353.50049pt.
  [35 <./image//ClassDiagram.png>]
-<image//sequanceDiagram.png, id=657, 617.30624pt x 522.95375pt>
+<image//sequanceDiagram.png, id=658, 617.30624pt x 522.95375pt>
 File: image//sequanceDiagram.png Graphic file (type png)
 <use image//sequanceDiagram.png>
 Package pdftex.def Info: image//sequanceDiagram.png  used on input line 807.
 (pdftex.def)             Requested size: 390.0pt x 330.39621pt.
  [36 <./image//sequanceDiagram.png>]
-<image//ERD.png, id=664, 640.3925pt x 542.025pt>
+<image//ERD.png, id=665, 640.3925pt x 542.025pt>
 File: image//ERD.png Graphic file (type png)
 <use image//ERD.png>
 Package pdftex.def Info: image//ERD.png  used on input line 817.
 (pdftex.def)             Requested size: 390.0pt x 330.09717pt.
 
 [37 <./image//ERD.png>]
-<image//Activity.png, id=670, 701.62125pt x 495.65175pt>
-File: image//Activity.png Graphic file (type png)
-<use image//Activity.png>
-Package pdftex.def Info: image//Activity.png  used on input line 840.
-(pdftex.def)             Requested size: 312.00119pt x 220.41684pt.
- [38 <./image//Activity.png>] [39] [40]
+<image//Activity.jpg, id=671, 694.09312pt x 511.9125pt>
+File: image//Activity.jpg Graphic file (type jpg)
+<use image//Activity.jpg>
+Package pdftex.def Info: image//Activity.jpg  used on input line 840.
+(pdftex.def)             Requested size: 312.00119pt x 230.11635pt.
+ [38 <./image//Activity.jpg>] [39] [40]
 <image//launchIcon.jpg, id=685, 274.02374pt x 317.185pt>
 File: image//launchIcon.jpg Graphic file (type jpg)
 <use image//launchIcon.jpg>
@@ -1739,7 +1739,7 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
 al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on document.pdf (61 pages, 5126413 bytes).
+Output written on document.pdf (61 pages, 5506130 bytes).
 PDF statistics:
  844 PDF objects out of 1000 (max. 8388607)
  733 compressed objects within 8 object streams
